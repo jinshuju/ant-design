@@ -38,7 +38,7 @@ const SAFE_DAYS_DIFF = 1000 * 60 * 60 * 24 * 3; // 3 days not update seems to be
 
 (async function process() {
   console.log(chalk.cyan('🤖 Post Publish Scripting...\n'));
-  const { time, 'dist-tags': distTags } = await fetch('http://registry.npmjs.org/antd').then(res =>
+  const { time, 'dist-tags': distTags } = await fetch('http://registry.npmjs.org/@gd-uikit/antd').then(res =>
     res.json(),
   );
 

@@ -41,6 +41,7 @@ module.exports = {
   },
   theme: ANT_THEME ? './site/theme/index-css-only.js' : './site/theme',
   htmlTemplate: './site/theme/static/template.html',
+  root: '/ant-design/',
   themeConfig,
   filePathMapper(filePath) {
     if (filePath === '/index.html') {
