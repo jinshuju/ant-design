@@ -1,6 +1,6 @@
 {
   "name": "@gd-uikit/antd",
-  "version": "4.24.8",
+  "version": "4.24.9",
   "description": "An enterprise-class UI design language and React components implementation",
   "title": "Ant Design",
   "keywords": [
@@ -14,13 +14,13 @@
     "react-component",
     "ui"
   ],
-  "homepage": "https://ant.design",
+  "homepage": "https://jinshuju.github.io/ant-design/",
   "bugs": {
     "url": "https://github.com/ant-design/ant-design/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ant-design/ant-design"
+    "url": "https://github.com/jinshuju/ant-design"
   },
   "license": "MIT",
   "contributors": [
