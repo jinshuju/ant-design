@@ -54,6 +54,7 @@ export default function generateRangePicker<DateType>(generateConfig: GenerateCo
     const innerRef = React.useRef<RCRangePicker<DateType>>(null);
     const { getPrefixCls, direction, getPopupContainer } = useContext(ConfigContext);
     const prefixCls = getPrefixCls('picker', customizePrefixCls);
+    const selectPrefixCls = getPrefixCls('select', customizePrefixCls);
     const { compactSize, compactItemClassnames } = useCompactItemContext(prefixCls, direction);
     const { format, showTime, picker } = props as any;
     const rootPrefixCls = getPrefixCls();
@@ -97,7 +98,7 @@ export default function generateRangePicker<DateType>(generateConfig: GenerateCo
 
     return (
       <LocaleReceiver componentName="DatePicker" defaultLocale={enUS}>
-        {contextLocale => {
+        {(contextLocale) => {
           const locale = { ...contextLocale, ...props.locale };
 
           return (
@@ -136,6 +137,7 @@ export default function generateRangePicker<DateType>(generateConfig: GenerateCo
               )}
               locale={locale!.lang}
               prefixCls={prefixCls}
+              selectPrefixCls={selectPrefixCls}
               getPopupContainer={customGetPopupContainer || getPopupContainer}
               generateConfig={generateConfig}
               components={Components}

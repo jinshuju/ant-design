@@ -358,8 +358,110 @@
     }
   }
 
+  &-panel-layout {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+  }
+
+  &-presets {
+    display: flex;
+    flex-direction: column;
+    min-width: 120px;
+    max-width: 200px;
+
+    ul {
+      flex: auto;
+      height: 0;
+      margin: 0;
+      padding: @padding-xs;
+      list-style: 'none';
+      border-right: @border-width-base @border-style-base @picker-border-color;
+
+      li {
+        padding: 3px @padding-xs;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        border-radius: @border-radius-base;
+        cursor: pointer;
+        transition: all @animation-duration-slow;
+
+        + li {
+          margin-top: @margin-xs;
+        }
+
+        &:hover {
+          background-color: @background-color-light;
+        }
+      }
+    }
+  }
   // ===================== Compact Item Styles =====================
   .compact-item(@picker-prefix-cls, null, ~'@{picker-prefix-cls}-focused');
+}
+
+.@{picker-prefix-cls}-quantum {
+  display: flex;
+  justify-content: space-between;
+  padding: @padding-xs @padding-sm;
+}
+
+.@{picker-prefix-cls}-quantum-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.@{picker-prefix-cls}-quantum-label {
+  margin-bottom: 3px;
+}
+
+.@{picker-prefix-cls}-quantum-end {
+  margin-left: 12px;
+}
+
+.@{picker-prefix-cls}-datetime-select {
+  display: flex;
+  align-items: center;
+  margin-left: 7px;
+}
+
+.@{picker-prefix-cls}-unit-select {
+  width: 60px;
+
+  .@{picker-prefix-cls}-select {
+    width: 100%;
+  }
+
+  &:not(:last-child) {
+    margin-right: 7px;
+  }
+}
+
+.@{picker-prefix-cls}-quantum-content {
+  display: flex;
+  align-items: center;
+}
+
+.@{picker-prefix-cls}-operation {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 20px 14px 12px;
+}
+
+.@{picker-prefix-cls}-day-input.@{picker-prefix-cls}-day-input {
+  width: 125px;
+}
+
+.@{ant-prefix}-select-show-arrow .@{ant-prefix}-select-arrow-icon::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-top-color: #999;
+  transform: translateY(3px);
+  content: '';
 }
 
 @import './panel';

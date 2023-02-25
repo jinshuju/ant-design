@@ -17,10 +17,11 @@ import type { InputStatus } from '../../_util/statusUtils';
 import { tuple } from '../../_util/type';
 import PickerButton from '../PickerButton';
 import PickerTag from '../PickerTag';
+import PickerInput from '../PickerInput';
 import generateRangePicker from './generateRangePicker';
 import generateSinglePicker from './generateSinglePicker';
 
-export const Components = { button: PickerButton, rangeItem: PickerTag };
+export const Components = { button: PickerButton, rangeItem: PickerTag, input: PickerInput };
 
 function toArray<T>(list: T | T[]): T[] {
   if (!list) {
