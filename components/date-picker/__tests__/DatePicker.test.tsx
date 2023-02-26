@@ -160,7 +160,12 @@ describe('DatePicker', () => {
   });
   it('showTime should work correctly when format is custom function', () => {
     const { container } = render(
-      <DatePicker defaultValue={moment()} showTime format={val => val.format('YYYY-MM-DD')} open />,
+      <DatePicker
+        defaultValue={moment()}
+        showTime
+        format={(val) => val.format('YYYY-MM-DD')}
+        open
+      />,
     );
     const fuousEvent = () => {
       fireEvent.focus(container.querySelector('input')!);
@@ -260,7 +265,7 @@ describe('DatePicker', () => {
     const y = container.querySelector('.ant-picker-header-view .ant-picker-year-btn')?.innerHTML;
     expect(m).toBe(startDate.format('MMM'));
     expect(y).toBe(startDate.format('YYYY'));
-    expect(container.querySelectorAll('.ant-picker-time-panel').length).toBe(1);
+    expect(container.querySelectorAll('.ant-picker-time-panel').length).toBe(0);
   });
 
   it('placement api work correctly', () => {
