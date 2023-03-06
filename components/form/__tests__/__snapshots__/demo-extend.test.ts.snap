@@ -16844,12 +16844,27 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                       style="user-select:none;-webkit-user-select:none"
                                       unselectable="on"
                                     >
-                                      <span
-                                        class="ant-select-arrow-icon"
-                                      />
+                                      <svg
+                                        fill="currentColor"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        width="18"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                      >
+                                        <path
+                                          clip-rule="evenodd"
+                                          d="M5.22 8.22a.75.75 0 011.06 0l5.47 5.47 5.47-5.47a.75.75 0 111.06 1.06l-6 6a.75.75 0 01-1.06 0l-6-6a.75.75 0 010-1.06z"
+                                          fill-rule="evenodd"
+                                        />
+                                      </svg>
                                     </span>
                                   </div>
                                 </div>
+                                <span
+                                  class="ant-picker-unit-separator"
+                                >
+                                  :
+                                </span>
                                 <div
                                   class="ant-picker-select-wrapper ant-picker-unit-select"
                                   style="position:relative"
@@ -18194,9 +18209,19 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                       style="user-select:none;-webkit-user-select:none"
                                       unselectable="on"
                                     >
-                                      <span
-                                        class="ant-select-arrow-icon"
-                                      />
+                                      <svg
+                                        fill="currentColor"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        width="18"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                      >
+                                        <path
+                                          clip-rule="evenodd"
+                                          d="M5.22 8.22a.75.75 0 011.06 0l5.47 5.47 5.47-5.47a.75.75 0 111.06 1.06l-6 6a.75.75 0 01-1.06 0l-6-6a.75.75 0 010-1.06z"
+                                          fill-rule="evenodd"
+                                        />
+                                      </svg>
                                     </span>
                                   </div>
                                 </div>
@@ -18810,12 +18835,27 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                       style="user-select:none;-webkit-user-select:none"
                                       unselectable="on"
                                     >
-                                      <span
-                                        class="ant-select-arrow-icon"
-                                      />
+                                      <svg
+                                        fill="currentColor"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        width="18"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                      >
+                                        <path
+                                          clip-rule="evenodd"
+                                          d="M5.22 8.22a.75.75 0 011.06 0l5.47 5.47 5.47-5.47a.75.75 0 111.06 1.06l-6 6a.75.75 0 01-1.06 0l-6-6a.75.75 0 010-1.06z"
+                                          fill-rule="evenodd"
+                                        />
+                                      </svg>
                                     </span>
                                   </div>
                                 </div>
+                                <span
+                                  class="ant-picker-unit-separator"
+                                >
+                                  :
+                                </span>
                                 <div
                                   class="ant-picker-select-wrapper ant-picker-unit-select"
                                   style="position:relative"
@@ -20160,9 +20200,19 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                       style="user-select:none;-webkit-user-select:none"
                                       unselectable="on"
                                     >
-                                      <span
-                                        class="ant-select-arrow-icon"
-                                      />
+                                      <svg
+                                        fill="currentColor"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        width="18"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                      >
+                                        <path
+                                          clip-rule="evenodd"
+                                          d="M5.22 8.22a.75.75 0 011.06 0l5.47 5.47 5.47-5.47a.75.75 0 111.06 1.06l-6 6a.75.75 0 01-1.06 0l-6-6a.75.75 0 010-1.06z"
+                                          fill-rule="evenodd"
+                                        />
+                                      </svg>
                                     </span>
                                   </div>
                                 </div>
