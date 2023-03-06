@@ -2,6 +2,7 @@ import CalendarOutlined from '@ant-design/icons/CalendarOutlined';
 import ClockCircleOutlined from '@ant-design/icons/ClockCircleOutlined';
 import CloseCircleFilled from '@ant-design/icons/CloseCircleFilled';
 import SwapRightOutlined from '@ant-design/icons/SwapRightOutlined';
+import { FunctionCloseSolidIcon, FunctionIndexDownIcon } from '@gd-uikit/icons';
 import classNames from 'classnames';
 import { RangePicker as RCRangePicker } from 'rc-picker';
 import type { GenerateConfig } from 'rc-picker/lib/generate/index';
@@ -137,7 +138,11 @@ export default function generateRangePicker<DateType>(generateConfig: GenerateCo
               )}
               locale={locale!.lang}
               prefixCls={prefixCls}
-              selectPrefixCls={selectPrefixCls}
+              timeSelectProps={{
+                prefixCls: selectPrefixCls,
+                inputIcon: <FunctionIndexDownIcon size={18} />,
+                clearIcon: <FunctionCloseSolidIcon size={18} />,
+              }}
               getPopupContainer={customGetPopupContainer || getPopupContainer}
               generateConfig={generateConfig}
               components={Components}

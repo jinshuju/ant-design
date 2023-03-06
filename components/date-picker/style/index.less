@@ -1,10 +1,10 @@
 @import '../../style/themes/index';
 @import '../../style/mixins/index';
 @import '../../input/style/mixin';
-// @import '../../select/style/index';
 @import './status';
 
 @picker-prefix-cls: ~'@{ant-prefix}-picker';
+@select-prefix-cls: ~'@{ant-prefix}-select';
 
 .picker-padding(@input-height, @font-size, @padding-horizontal) {
   // font height probably 22.0001， So use floor better
@@ -398,6 +398,7 @@
       }
     }
   }
+
   // ===================== Compact Item Styles =====================
   .compact-item(@picker-prefix-cls, null, ~'@{picker-prefix-cls}-focused');
 }
@@ -436,8 +437,24 @@
   }
 
   &:not(:last-child) {
-    margin-right: 7px;
+    margin-right: 5px;
   }
+
+  .@{select-prefix-cls}-arrow {
+    right: 6px;
+  }
+
+  .@{select-prefix-cls}-clear {
+    right: 6px;
+    width: 18px;
+    height: 18px;
+    margin-top: -9px;
+  }
+}
+
+.@{picker-prefix-cls}-unit-separator {
+  margin-right: 5px;
+  color: @input-placeholder-color;
 }
 
 .@{picker-prefix-cls}-quantum-content {
