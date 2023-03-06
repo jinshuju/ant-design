@@ -6,4 +6,4 @@ import '../../tag/style';
 import '../../input/style';
 import '../../select/style';
 
-// deps-lint-skip: form, space
+// deps-lint-skip: form, space, select
