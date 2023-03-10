@@ -16250,6 +16250,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                             >
                               <input
                                 class="ant-input ant-picker-day-input"
+                                placeholder="Date"
                                 type="text"
                                 value=""
                               />
@@ -16284,7 +16285,9 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                       </span>
                                       <span
                                         class="ant-select-selection-placeholder"
-                                      />
+                                      >
+                                        Hour
+                                      </span>
                                     </div>
                                     <div>
                                       <div
@@ -16342,11 +16345,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16363,11 +16362,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16384,11 +16379,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16405,11 +16396,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16426,11 +16413,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16447,11 +16430,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16468,11 +16447,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16489,11 +16464,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16510,11 +16481,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16531,11 +16498,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16552,11 +16515,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16573,11 +16532,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16594,11 +16549,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16615,11 +16566,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16636,11 +16583,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16657,11 +16600,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16678,11 +16617,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16699,11 +16634,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16720,11 +16651,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16741,11 +16668,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16762,11 +16685,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16783,11 +16702,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16804,11 +16719,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16825,11 +16736,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                 </div>
                                               </div>
@@ -16893,7 +16800,9 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                       </span>
                                       <span
                                         class="ant-select-selection-placeholder"
-                                      />
+                                      >
+                                        Minute
+                                      </span>
                                     </div>
                                     <div>
                                       <div
@@ -16951,11 +16860,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16972,11 +16877,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -16993,11 +16894,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17014,11 +16911,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17035,11 +16928,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17056,11 +16945,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17077,11 +16962,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17098,11 +16979,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17119,11 +16996,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17140,11 +17013,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17161,11 +17030,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17182,11 +17047,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17203,11 +17064,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17224,11 +17081,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17245,11 +17098,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17266,11 +17115,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17287,11 +17132,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17308,11 +17149,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17329,11 +17166,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17350,11 +17183,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17371,11 +17200,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17392,11 +17217,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17413,11 +17234,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17434,11 +17251,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17455,11 +17268,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17476,11 +17285,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17497,11 +17302,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17518,11 +17319,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17539,11 +17336,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17560,11 +17353,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17581,11 +17370,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17602,11 +17387,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17623,11 +17404,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17644,11 +17421,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17665,11 +17438,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17686,11 +17455,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17707,11 +17472,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17728,11 +17489,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17749,11 +17506,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17770,11 +17523,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17791,11 +17540,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17812,11 +17557,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17833,11 +17574,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17854,11 +17591,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17875,11 +17608,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17896,11 +17625,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17917,11 +17642,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17938,11 +17659,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17959,11 +17676,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -17980,11 +17693,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18001,11 +17710,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18022,11 +17727,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18043,11 +17744,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18064,11 +17761,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18085,11 +17778,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18106,11 +17795,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18127,11 +17812,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18148,11 +17829,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18169,11 +17846,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18190,11 +17863,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                 </div>
                                               </div>
@@ -18241,6 +17910,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                             >
                               <input
                                 class="ant-input ant-picker-day-input"
+                                placeholder="Date"
                                 type="text"
                                 value=""
                               />
@@ -18275,7 +17945,9 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                       </span>
                                       <span
                                         class="ant-select-selection-placeholder"
-                                      />
+                                      >
+                                        Hour
+                                      </span>
                                     </div>
                                     <div>
                                       <div
@@ -18333,11 +18005,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18354,11 +18022,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18375,11 +18039,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18396,11 +18056,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18417,11 +18073,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18438,11 +18090,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18459,11 +18107,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18480,11 +18124,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18501,11 +18141,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18522,11 +18158,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18543,11 +18175,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18564,11 +18192,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18585,11 +18209,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18606,11 +18226,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18627,11 +18243,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18648,11 +18260,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18669,11 +18277,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18690,11 +18294,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18711,11 +18311,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18732,11 +18328,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18753,11 +18345,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18774,11 +18362,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18795,11 +18379,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18816,11 +18396,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                 </div>
                                               </div>
@@ -18884,7 +18460,9 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                       </span>
                                       <span
                                         class="ant-select-selection-placeholder"
-                                      />
+                                      >
+                                        Minute
+                                      </span>
                                     </div>
                                     <div>
                                       <div
@@ -18942,11 +18520,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18963,11 +18537,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -18984,11 +18554,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19005,11 +18571,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19026,11 +18588,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19047,11 +18605,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19068,11 +18622,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19089,11 +18639,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19110,11 +18656,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19131,11 +18673,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19152,11 +18690,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19173,11 +18707,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19194,11 +18724,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19215,11 +18741,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19236,11 +18758,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19257,11 +18775,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19278,11 +18792,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19299,11 +18809,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19320,11 +18826,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19341,11 +18843,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19362,11 +18860,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19383,11 +18877,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19404,11 +18894,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19425,11 +18911,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19446,11 +18928,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19467,11 +18945,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19488,11 +18962,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19509,11 +18979,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19530,11 +18996,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19551,11 +19013,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19572,11 +19030,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19593,11 +19047,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19614,11 +19064,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19635,11 +19081,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19656,11 +19098,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19677,11 +19115,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19698,11 +19132,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19719,11 +19149,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19740,11 +19166,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19761,11 +19183,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19782,11 +19200,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19803,11 +19217,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19824,11 +19234,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19845,11 +19251,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19866,11 +19268,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19887,11 +19285,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19908,11 +19302,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19929,11 +19319,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19950,11 +19336,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19971,11 +19353,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -19992,11 +19370,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -20013,11 +19387,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -20034,11 +19404,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -20055,11 +19421,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -20076,11 +19438,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -20097,11 +19455,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -20118,11 +19472,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -20139,11 +19489,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -20160,11 +19506,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                   <div
                                                     aria-selected="false"
@@ -20181,11 +19523,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                                                       class="ant-select-item-option-state"
                                                       style="user-select:none;-webkit-user-select:none"
                                                       unselectable="on"
-                                                    >
-                                                      <span
-                                                        class="ant-select-item-option-state-icon"
-                                                      />
-                                                    </span>
+                                                    />
                                                   </div>
                                                 </div>
                                               </div>
