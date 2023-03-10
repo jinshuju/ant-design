@@ -140,6 +140,7 @@ export default function generateRangePicker<DateType>(generateConfig: GenerateCo
               prefixCls={prefixCls}
               timeSelectProps={{
                 prefixCls: selectPrefixCls,
+                menuItemSelectedIcon: null,
                 inputIcon: <FunctionIndexDownIcon size={18} />,
                 clearIcon: <FunctionCloseSolidIcon size={18} />,
               }}
