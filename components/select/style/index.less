@@ -29,7 +29,7 @@
   }
 
   .@{select-prefix-cls}-focused:not(.@{select-prefix-cls}-disabled)& {
-    .active();
+    .active(@input-border-color, @input-hover-border-color, @input-outline-color);
   }
 
   .@{select-prefix-cls}-disabled& {

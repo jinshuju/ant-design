@@ -33,7 +33,7 @@
   }
 
   &-focused {
-    .active();
+    .active(@input-border-color, @input-hover-border-color, @input-outline-color);
   }
 
   &&-disabled {
@@ -188,7 +188,7 @@
       bottom: -@border-width-base;
       height: 2px;
       margin-left: @input-padding-horizontal-base;
-      background: @primary-color;
+      background: @input-hover-border-color;
       opacity: 0;
       transition: all @animation-duration-slow ease-out;
       pointer-events: none;

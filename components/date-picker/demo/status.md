@@ -24,6 +24,8 @@ const App: React.FC = () => (
     <DatePicker status="warning" style={{ width: '100%' }} />
     <DatePicker.RangePicker status="error" style={{ width: '100%' }} />
     <DatePicker.RangePicker status="warning" style={{ width: '100%' }} />
+    <DatePicker.RangePicker showTime status="error" style={{ width: '100%' }} />
+    <DatePicker.RangePicker showTime status="warning" style={{ width: '100%' }} />
   </Space>
 );
 
