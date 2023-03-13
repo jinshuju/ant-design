@@ -179,7 +179,9 @@
 
     // >>> Hover
     &:hover:not(&-in-view),
-    &:hover:not(&-selected):not(&-range-start):not(&-range-end):not(&-range-hover-start):not(&-range-hover-end) {
+    &:hover:not(&-selected):not(&-range-start):not(&-range-end):not(&-range-hover-start):not(
+        &-range-hover-end
+      ) {
       .@{cellClassName} {
         background: @picker-basic-cell-hover-color;
       }
@@ -214,7 +216,7 @@
     &-in-view&-range-start .@{cellClassName},
     &-in-view&-range-end .@{cellClassName} {
       color: @text-color-inverse;
-      background: @primary-color;
+      background: @picker-basic-cell-color;
     }
 
     &-in-view&-range-start:not(&-range-start-single),

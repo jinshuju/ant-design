@@ -33,18 +33,50 @@ const onChange: RangePickerProps['onChange'] = (dates, dateStrings) => {
 const App: React.FC = () => (
   <Space direction="vertical" size={12}>
     <RangePicker
-      ranges={{
-        Today: [moment(), moment()],
-        'This Month': [moment().startOf('month'), moment().endOf('month')],
-      }}
+      presets={[
+        {
+          label: 'Today',
+          value: [moment(), moment()],
+        },
+        {
+          label: 'This Month',
+          value: [moment().startOf('month'), moment().endOf('month')],
+        },
+      ]}
       onChange={onChange}
     />
     <RangePicker
-      ranges={{
-        Today: [moment(), moment()],
-        'This Month': [moment().startOf('month'), moment().endOf('month')],
-      }}
+      presets={[
+        {
+          label: 'Today',
+          value: [moment(), moment()],
+        },
+        {
+          label: 'This Month',
+          value: [moment().startOf('month'), moment().endOf('month')],
+        },
+      ]}
+      presetsHeader={<div style={{ paddingLeft: 14, paddingTop: 10 }}>快速查看</div>}
       showTime
+      format="YYYY/MM/DD HH:mm:ss"
+      onChange={onChange}
+    />
+    <RangePicker
+      presets={[
+        {
+          label: 'Today',
+          value: [moment(), moment()],
+        },
+        {
+          label: 'This Month',
+          value: [moment().startOf('month'), moment().endOf('month')],
+        },
+      ]}
+      presetsHeader={<div style={{ paddingLeft: 14, paddingTop: 10 }}>快速查看</div>}
+      showTime={{
+        showSecond: true,
+        defaultValue: [moment('00:00:00', 'HH:mm:ss'), moment('23:59:59', 'HH:mm:ss')],
+      }}
       format="YYYY/MM/DD HH:mm:ss"
       onChange={onChange}
     />
