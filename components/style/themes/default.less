@@ -449,6 +449,7 @@
 @input-color: @text-color;
 @input-icon-color: @input-color;
 @input-border-color: @border-color-base;
+@input-outline-color: fade(@input-hover-border-color, @outline-fade);
 @input-bg: @component-background;
 @input-number-hover-border-color: @input-hover-border-color;
 @input-number-handler-active-bg: #f4f4f4;
@@ -686,6 +687,7 @@
 // ---
 @picker-bg: @component-background;
 @picker-basic-cell-hover-color: @item-hover-bg;
+@picker-basic-cell-select-color: @primary-color;
 @picker-basic-cell-active-with-range-color: @primary-1;
 @picker-basic-cell-hover-with-range-color: lighten(@primary-color, 35%);
 @picker-basic-cell-disabled-bg: rgba(0, 0, 0, 0.04);

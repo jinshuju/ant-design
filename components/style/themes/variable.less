@@ -504,6 +504,7 @@
 @input-color: @text-color;
 @input-icon-color: @input-color;
 @input-border-color: @border-color-base;
+@input-outline-color: fade(@input-hover-border-color, @outline-fade);
 @input-bg: @component-background;
 @input-number-hover-border-color: @input-hover-border-color;
 @input-number-handler-active-bg: #f4f4f4;
@@ -740,6 +741,7 @@
 // TimePicker
 // ---
 @picker-bg: @component-background;
+@picker-basic-cell-select-color: @primary-color;
 @picker-basic-cell-hover-color: @item-hover-bg;
 @picker-basic-cell-active-with-range-color: rgb(254, 239, 217);
 @picker-basic-cell-hover-with-range-color: ~'var(--@{ant-prefix}-primary-color-deprecated-l-35)';
