@@ -12923,6 +12923,13 @@ exports[`ConfigProvider components DatePicker DatePicker configProvider 1`] = `
         title=""
         value=""
       />
+      <span
+        class="config-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -12975,6 +12982,13 @@ exports[`ConfigProvider components DatePicker DatePicker configProvider componen
         title=""
         value=""
       />
+      <span
+        class="config-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -13026,6 +13040,13 @@ exports[`ConfigProvider components DatePicker DatePicker configProvider componen
         title=""
         value=""
       />
+      <span
+        class="config-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -13077,6 +13098,13 @@ exports[`ConfigProvider components DatePicker DatePicker configProvider componen
         title=""
         value=""
       />
+      <span
+        class="config-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -13128,6 +13156,13 @@ exports[`ConfigProvider components DatePicker DatePicker configProvider virtual 
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -13179,6 +13214,13 @@ exports[`ConfigProvider components DatePicker DatePicker normal 1`] = `
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -13230,6 +13272,13 @@ exports[`ConfigProvider components DatePicker DatePicker prefixCls 1`] = `
         title=""
         value=""
       />
+      <span
+        class="prefix-DatePicker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -13281,6 +13330,13 @@ exports[`ConfigProvider components DatePicker MonthPicker configProvider 1`] = `
         title=""
         value=""
       />
+      <span
+        class="config-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -13333,6 +13389,13 @@ exports[`ConfigProvider components DatePicker MonthPicker configProvider compone
         title=""
         value=""
       />
+      <span
+        class="config-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -13384,6 +13447,13 @@ exports[`ConfigProvider components DatePicker MonthPicker configProvider compone
         title=""
         value=""
       />
+      <span
+        class="config-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -13435,6 +13505,13 @@ exports[`ConfigProvider components DatePicker MonthPicker configProvider compone
         title=""
         value=""
       />
+      <span
+        class="config-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -13486,6 +13563,13 @@ exports[`ConfigProvider components DatePicker MonthPicker configProvider virtual
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -13537,6 +13621,13 @@ exports[`ConfigProvider components DatePicker MonthPicker normal 1`] = `
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -13588,6 +13679,13 @@ exports[`ConfigProvider components DatePicker MonthPicker prefixCls 1`] = `
         title=""
         value=""
       />
+      <span
+        class="prefix-MonthPicker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -13674,6 +13772,13 @@ exports[`ConfigProvider components DatePicker RangePicker configProvider 1`] = `
       class="config-picker-active-bar"
       style="left: 0px; width: 0px; position: absolute;"
     />
+    <span
+      class="config-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
   </div>
 </div>
 `;
@@ -13761,6 +13866,13 @@ exports[`ConfigProvider components DatePicker RangePicker configProvider compone
       class="config-picker-active-bar"
       style="left: 0px; width: 0px; position: absolute;"
     />
+    <span
+      class="config-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
   </div>
 </div>
 `;
@@ -13846,6 +13958,13 @@ exports[`ConfigProvider components DatePicker RangePicker configProvider compone
       class="config-picker-active-bar"
       style="left: 0px; width: 0px; position: absolute;"
     />
+    <span
+      class="config-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
   </div>
 </div>
 `;
@@ -13931,6 +14050,13 @@ exports[`ConfigProvider components DatePicker RangePicker configProvider compone
       class="config-picker-active-bar"
       style="left: 0px; width: 0px; position: absolute;"
     />
+    <span
+      class="config-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
   </div>
 </div>
 `;
@@ -14016,6 +14142,13 @@ exports[`ConfigProvider components DatePicker RangePicker configProvider virtual
       class="ant-picker-active-bar"
       style="left: 0px; width: 0px; position: absolute;"
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
   </div>
 </div>
 `;
@@ -14101,6 +14234,13 @@ exports[`ConfigProvider components DatePicker RangePicker normal 1`] = `
       class="ant-picker-active-bar"
       style="left: 0px; width: 0px; position: absolute;"
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
   </div>
 </div>
 `;
@@ -14186,6 +14326,13 @@ exports[`ConfigProvider components DatePicker RangePicker prefixCls 1`] = `
       class="prefix-RangePicker-active-bar"
       style="left: 0px; width: 0px; position: absolute;"
     />
+    <span
+      class="prefix-RangePicker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
   </div>
 </div>
 `;
@@ -14236,6 +14383,13 @@ exports[`ConfigProvider components DatePicker WeekPicker configProvider 1`] = `
         title=""
         value=""
       />
+      <span
+        class="config-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -14288,6 +14442,13 @@ exports[`ConfigProvider components DatePicker WeekPicker configProvider componen
         title=""
         value=""
       />
+      <span
+        class="config-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -14339,6 +14500,13 @@ exports[`ConfigProvider components DatePicker WeekPicker configProvider componen
         title=""
         value=""
       />
+      <span
+        class="config-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -14390,6 +14558,13 @@ exports[`ConfigProvider components DatePicker WeekPicker configProvider componen
         title=""
         value=""
       />
+      <span
+        class="config-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -14441,6 +14616,13 @@ exports[`ConfigProvider components DatePicker WeekPicker configProvider virtual 
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -14492,6 +14674,13 @@ exports[`ConfigProvider components DatePicker WeekPicker normal 1`] = `
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -14543,6 +14732,13 @@ exports[`ConfigProvider components DatePicker WeekPicker prefixCls 1`] = `
         title=""
         value=""
       />
+      <span
+        class="prefix-WeekPicker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -30000,6 +30196,13 @@ HTMLCollection [
         title=""
         value=""
       />
+      <span
+        class="config-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>,
   <div>
@@ -31408,6 +31611,13 @@ HTMLCollection [
         title=""
         value=""
       />
+      <span
+        class="config-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>,
 ]
@@ -31447,6 +31657,13 @@ HTMLCollection [
         title=""
         value=""
       />
+      <span
+        class="config-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>,
   <div>
@@ -32854,6 +33071,13 @@ HTMLCollection [
         title=""
         value=""
       />
+      <span
+        class="config-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>,
   <div>
@@ -34261,6 +34485,13 @@ HTMLCollection [
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>,
   <div>
@@ -35668,6 +35899,13 @@ HTMLCollection [
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>,
   <div>
@@ -37075,6 +37313,13 @@ HTMLCollection [
         title=""
         value=""
       />
+      <span
+        class="prefix-TimePicker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>,
   <div>

@@ -46,6 +46,13 @@ exports[`QuarterPicker should support style prop 1`] = `
       title=""
       value=""
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
   </div>
 </div>
 `;

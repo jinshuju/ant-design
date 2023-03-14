@@ -3082,6 +3082,13 @@ Array [
                     title=""
                     value=""
                   />
+                  <span
+                    class="ant-picker-suffix"
+                  >
+                    <span
+                      style="width:14px"
+                    />
+                  </span>
                 </div>
               </div>
               <div>
@@ -3753,6 +3760,13 @@ Array [
                   class="ant-picker-active-bar"
                   style="left:0;width:0;position:absolute"
                 />
+                <span
+                  class="ant-picker-suffix"
+                >
+                  <span
+                    style="width:14px"
+                  />
+                </span>
               </div>
               <div>
                 <div
@@ -10189,6 +10203,13 @@ exports[`renders ./components/form/demo/size.md extend context correctly 1`] = `
                   title=""
                   value=""
                 />
+                <span
+                  class="ant-picker-suffix"
+                >
+                  <span
+                    style="width:14px"
+                  />
+                </span>
               </div>
             </div>
             <div>
@@ -11018,6 +11039,13 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                   title=""
                   value=""
                 />
+                <span
+                  class="ant-picker-suffix"
+                >
+                  <span
+                    style="width:14px"
+                  />
+                </span>
               </div>
             </div>
             <div>
@@ -11655,6 +11683,13 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                   title=""
                   value=""
                 />
+                <span
+                  class="ant-picker-suffix"
+                >
+                  <span
+                    style="width:14px"
+                  />
+                </span>
               </div>
             </div>
             <div>
@@ -13644,6 +13679,13 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                   title=""
                   value=""
                 />
+                <span
+                  class="ant-picker-suffix"
+                >
+                  <span
+                    style="width:14px"
+                  />
+                </span>
               </div>
             </div>
             <div>
@@ -13952,6 +13994,13 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                 class="ant-picker-active-bar"
                 style="left:0;width:0;position:absolute"
               />
+              <span
+                class="ant-picker-suffix"
+              >
+                <span
+                  style="width:14px"
+                />
+              </span>
             </div>
             <div>
               <div
@@ -15168,6 +15217,13 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                 class="ant-picker-active-bar"
                 style="left:0;width:0;position:absolute"
               />
+              <span
+                class="ant-picker-suffix"
+              >
+                <span
+                  style="width:14px"
+                />
+              </span>
             </div>
             <div>
               <div
@@ -19674,6 +19730,13 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                   title=""
                   value=""
                 />
+                <span
+                  class="ant-picker-suffix"
+                >
+                  <span
+                    style="width:14px"
+                  />
+                </span>
               </div>
             </div>
             <div>
@@ -23293,6 +23356,13 @@ exports[`renders ./components/form/demo/validate-static.md extend context correc
                   title=""
                   value=""
                 />
+                <span
+                  class="ant-picker-suffix"
+                >
+                  <span
+                    style="width:14px"
+                  />
+                </span>
               </div>
             </div>
             <div>
@@ -23939,6 +24009,13 @@ exports[`renders ./components/form/demo/validate-static.md extend context correc
                   title=""
                   value=""
                 />
+                <span
+                  class="ant-picker-suffix"
+                >
+                  <span
+                    style="width:14px"
+                  />
+                </span>
               </div>
             </div>
             <div>
@@ -25443,6 +25520,13 @@ exports[`renders ./components/form/demo/validate-static.md extend context correc
                 class="ant-picker-active-bar"
                 style="left:0;width:0;position:absolute"
               />
+              <span
+                class="ant-picker-suffix"
+              >
+                <span
+                  style="width:14px"
+                />
+              </span>
             </div>
             <div>
               <div
@@ -27176,6 +27260,13 @@ exports[`renders ./components/form/demo/validate-static.md extend context correc
                             title=""
                             value=""
                           />
+                          <span
+                            class="ant-picker-suffix"
+                          >
+                            <span
+                              style="width:14px"
+                            />
+                          </span>
                         </div>
                       </div>
                       <div>
@@ -27806,6 +27897,13 @@ exports[`renders ./components/form/demo/validate-static.md extend context correc
                             title=""
                             value=""
                           />
+                          <span
+                            class="ant-picker-suffix"
+                          >
+                            <span
+                              style="width:14px"
+                            />
+                          </span>
                         </div>
                       </div>
                       <div>

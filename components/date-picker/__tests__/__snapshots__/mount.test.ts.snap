@@ -45,6 +45,13 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
       title=""
       value=""
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
   </div>
 </div>
 `;
@@ -94,6 +101,13 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
       title=""
       value=""
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
   </div>
 </div>
 `;
@@ -143,6 +157,13 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
       title=""
       value=""
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
   </div>
 </div>
 `;
@@ -227,5 +248,12 @@ exports[`mount rtl render component should be rendered correctly in RTL directio
     class="ant-picker-active-bar"
     style="right: 0px; width: 0px; position: absolute;"
   />
+  <span
+    class="ant-picker-suffix"
+  >
+    <span
+      style="width: 14px;"
+    />
+  </span>
 </div>
 `;

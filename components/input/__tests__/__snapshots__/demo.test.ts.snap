@@ -556,6 +556,13 @@ Array [
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>,
   <div
@@ -591,6 +598,13 @@ Array [
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>,
   <div
@@ -872,6 +886,13 @@ Array [
       class="ant-picker-active-bar"
       style="left:0;width:0;position:absolute"
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width:14px"
+      />
+    </span>
   </div>,
   <div
     class="ant-picker"
@@ -917,6 +938,13 @@ Array [
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>,
   <div
@@ -2105,6 +2133,13 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </span>
@@ -2198,6 +2233,13 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </span>
   <br />

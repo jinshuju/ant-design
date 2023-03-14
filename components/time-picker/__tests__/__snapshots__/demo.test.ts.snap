@@ -34,6 +34,13 @@ Array [
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>,
   <div
@@ -69,6 +76,13 @@ Array [
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>,
   <div
@@ -103,6 +117,13 @@ Array [
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>,
 ]
@@ -141,6 +162,13 @@ exports[`renders ./components/time-picker/demo/addon.md correctly 1`] = `
       title=""
       value=""
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width:14px"
+      />
+    </span>
   </div>
 </div>
 `;
@@ -178,6 +206,13 @@ exports[`renders ./components/time-picker/demo/basic.md correctly 1`] = `
       title=""
       value=""
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width:14px"
+      />
+    </span>
   </div>
 </div>
 `;
@@ -216,6 +251,13 @@ Array [
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>,
   <div
@@ -285,6 +327,13 @@ Array [
       class="ant-picker-active-bar"
       style="left:0;width:0;position:absolute"
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width:14px"
+      />
+    </span>
   </div>,
 ]
 `;
@@ -322,6 +371,13 @@ exports[`renders ./components/time-picker/demo/colored-popup.md correctly 1`] = 
       title=""
       value=""
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width:14px"
+      />
+    </span>
   </div>
 </div>
 `;
@@ -360,6 +416,13 @@ exports[`renders ./components/time-picker/demo/disabled.md correctly 1`] = `
       title=""
       value=""
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width:14px"
+      />
+    </span>
   </div>
 </div>
 `;
@@ -397,6 +460,13 @@ exports[`renders ./components/time-picker/demo/hide-column.md correctly 1`] = `
       title=""
       value=""
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width:14px"
+      />
+    </span>
     <span
       class="ant-picker-clear"
       role="button"
@@ -458,6 +528,13 @@ exports[`renders ./components/time-picker/demo/interval-options.md correctly 1`]
       title=""
       value=""
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width:14px"
+      />
+    </span>
   </div>
 </div>
 `;
@@ -530,6 +607,13 @@ exports[`renders ./components/time-picker/demo/range-picker.md correctly 1`] = `
     class="ant-picker-active-bar"
     style="left:0;width:0;position:absolute"
   />
+  <span
+    class="ant-picker-suffix"
+  >
+    <span
+      style="width:14px"
+    />
+  </span>
 </div>
 `;
 
@@ -567,6 +651,13 @@ Array [
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
       <span
         class="ant-picker-clear"
         role="button"
@@ -626,6 +717,13 @@ Array [
         value=""
       />
       <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
+      <span
         class="ant-picker-clear"
         role="button"
       >
@@ -683,6 +781,13 @@ Array [
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
       <span
         class="ant-picker-clear"
         role="button"
@@ -752,6 +857,13 @@ exports[`renders ./components/time-picker/demo/status.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -791,6 +903,13 @@ exports[`renders ./components/time-picker/demo/status.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -865,6 +984,13 @@ exports[`renders ./components/time-picker/demo/status.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -937,6 +1063,13 @@ exports[`renders ./components/time-picker/demo/status.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -1035,6 +1168,13 @@ exports[`renders ./components/time-picker/demo/value.md correctly 1`] = `
       title=""
       value=""
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width:14px"
+      />
+    </span>
   </div>
 </div>
 `;

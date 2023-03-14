@@ -33,6 +33,13 @@ exports[`TimePicker not render clean icon when allowClear is false 1`] = `
       title="00:00:00"
       value="00:00:00"
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
   </div>
 </div>
 `;
@@ -71,6 +78,13 @@ Array [
         title="00:00:00"
         value="00:00:00"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
       <span
         class="ant-picker-clear"
         role="button"
@@ -1501,6 +1515,13 @@ exports[`TimePicker rtl render component should be rendered correctly in RTL dir
       title=""
       value=""
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
   </div>
 </div>
 `;
@@ -1538,6 +1559,13 @@ exports[`TimePicker should support bordered 1`] = `
       title="00:00:00"
       value="00:00:00"
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
     <span
       class="ant-picker-clear"
       role="button"

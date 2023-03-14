@@ -862,6 +862,13 @@ exports[`renders ./components/space/demo/compact.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -949,6 +956,13 @@ exports[`renders ./components/space/demo/compact.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <input
       class="ant-input ant-input-compact-item"
@@ -1055,6 +1069,13 @@ exports[`renders ./components/space/demo/compact.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <br />
@@ -1398,6 +1419,13 @@ exports[`renders ./components/space/demo/compact.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div
@@ -1530,6 +1558,13 @@ exports[`renders ./components/space/demo/compact.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div
       class="ant-select ant-tree-select ant-select-compact-item ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
@@ -3131,6 +3166,13 @@ exports[`renders ./components/space/demo/compact-debug.md correctly 1`] = `
           class="ant-picker-active-bar"
           style="left:0;width:0;position:absolute"
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -3624,6 +3666,13 @@ Array [
             title=""
             value=""
           />
+          <span
+            class="ant-picker-suffix"
+          >
+            <span
+              style="width:14px"
+            />
+          </span>
         </div>
       </div>
       <button

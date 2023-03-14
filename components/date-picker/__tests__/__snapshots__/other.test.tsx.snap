@@ -864,6 +864,13 @@ exports[`Picker format by locale date 1`] = `
       value="2000-01-01"
     />
     <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
+    <span
       class="ant-picker-clear"
       role="button"
     >
@@ -936,6 +943,13 @@ exports[`Picker format by locale dateTime 1`] = `
       title="2000-01-01 00:00:00"
       value="2000-01-01 00:00:00"
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
     <span
       class="ant-picker-clear"
       role="button"
@@ -1010,6 +1024,13 @@ exports[`Picker format by locale month 1`] = `
       value="2000-01"
     />
     <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
+    <span
       class="ant-picker-clear"
       role="button"
     >
@@ -1082,6 +1103,13 @@ exports[`Picker format by locale week 1`] = `
       title="1999-52周"
       value="1999-52周"
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
     <span
       class="ant-picker-clear"
       role="button"

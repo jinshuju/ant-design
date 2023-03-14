@@ -2216,6 +2216,13 @@ Array [
                     title=""
                     value=""
                   />
+                  <span
+                    class="ant-picker-suffix"
+                  >
+                    <span
+                      style="width:14px"
+                    />
+                  </span>
                 </div>
               </div>
             </div>
@@ -2329,6 +2336,13 @@ Array [
                   class="ant-picker-active-bar"
                   style="left:0;width:0;position:absolute"
                 />
+                <span
+                  class="ant-picker-suffix"
+                >
+                  <span
+                    style="width:14px"
+                  />
+                </span>
               </div>
             </div>
           </div>
@@ -6933,6 +6947,13 @@ exports[`renders ./components/form/demo/size.md correctly 1`] = `
                   title=""
                   value=""
                 />
+                <span
+                  class="ant-picker-suffix"
+                >
+                  <span
+                    style="width:14px"
+                  />
+                </span>
               </div>
             </div>
           </div>
@@ -7204,6 +7225,13 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
                   title=""
                   value=""
                 />
+                <span
+                  class="ant-picker-suffix"
+                >
+                  <span
+                    style="width:14px"
+                  />
+                </span>
               </div>
             </div>
           </div>
@@ -7283,6 +7311,13 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
                   title=""
                   value=""
                 />
+                <span
+                  class="ant-picker-suffix"
+                >
+                  <span
+                    style="width:14px"
+                  />
+                </span>
               </div>
             </div>
           </div>
@@ -7362,6 +7397,13 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
                   title=""
                   value=""
                 />
+                <span
+                  class="ant-picker-suffix"
+                >
+                  <span
+                    style="width:14px"
+                  />
+                </span>
               </div>
             </div>
           </div>
@@ -7476,6 +7518,13 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
                 class="ant-picker-active-bar"
                 style="left:0;width:0;position:absolute"
               />
+              <span
+                class="ant-picker-suffix"
+              >
+                <span
+                  style="width:14px"
+                />
+              </span>
             </div>
           </div>
         </div>
@@ -7589,6 +7638,13 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
                 class="ant-picker-active-bar"
                 style="left:0;width:0;position:absolute"
               />
+              <span
+                class="ant-picker-suffix"
+              >
+                <span
+                  style="width:14px"
+                />
+              </span>
             </div>
           </div>
         </div>
@@ -7655,6 +7711,13 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
                   title=""
                   value=""
                 />
+                <span
+                  class="ant-picker-suffix"
+                >
+                  <span
+                    style="width:14px"
+                  />
+                </span>
               </div>
             </div>
           </div>
@@ -9718,6 +9781,13 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
                   title=""
                   value=""
                 />
+                <span
+                  class="ant-picker-suffix"
+                >
+                  <span
+                    style="width:14px"
+                  />
+                </span>
               </div>
             </div>
           </div>
@@ -9806,6 +9876,13 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
                   title=""
                   value=""
                 />
+                <span
+                  class="ant-picker-suffix"
+                >
+                  <span
+                    style="width:14px"
+                  />
+                </span>
               </div>
             </div>
           </div>
@@ -9941,6 +10018,13 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
                 class="ant-picker-active-bar"
                 style="left:0;width:0;position:absolute"
               />
+              <span
+                class="ant-picker-suffix"
+              >
+                <span
+                  style="width:14px"
+                />
+              </span>
             </div>
           </div>
         </div>
@@ -10364,6 +10448,13 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
                             title=""
                             value=""
                           />
+                          <span
+                            class="ant-picker-suffix"
+                          >
+                            <span
+                              style="width:14px"
+                            />
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -10436,6 +10527,13 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
                             title=""
                             value=""
                           />
+                          <span
+                            class="ant-picker-suffix"
+                          >
+                            <span
+                              style="width:14px"
+                            />
+                          </span>
                         </div>
                       </div>
                     </div>

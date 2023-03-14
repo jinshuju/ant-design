@@ -52,6 +52,13 @@ exports[`renders ./components/date-picker/demo/basic.md extend context correctly
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -661,6 +668,13 @@ exports[`renders ./components/date-picker/demo/basic.md extend context correctly
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -1330,6 +1344,13 @@ exports[`renders ./components/date-picker/demo/basic.md extend context correctly
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -1575,6 +1596,13 @@ exports[`renders ./components/date-picker/demo/basic.md extend context correctly
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -1733,6 +1761,13 @@ exports[`renders ./components/date-picker/demo/basic.md extend context correctly
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -1989,6 +2024,13 @@ exports[`renders ./components/date-picker/demo/bordered.md extend context correc
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -2598,6 +2640,13 @@ exports[`renders ./components/date-picker/demo/bordered.md extend context correc
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -3267,6 +3316,13 @@ exports[`renders ./components/date-picker/demo/bordered.md extend context correc
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -3512,6 +3568,13 @@ exports[`renders ./components/date-picker/demo/bordered.md extend context correc
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -3796,6 +3859,13 @@ exports[`renders ./components/date-picker/demo/bordered.md extend context correc
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -4984,6 +5054,13 @@ exports[`renders ./components/date-picker/demo/bordered.md extend context correc
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -6310,6 +6387,13 @@ exports[`renders ./components/date-picker/demo/bordered.md extend context correc
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -6785,6 +6869,13 @@ exports[`renders ./components/date-picker/demo/bordered.md extend context correc
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -7241,6 +7332,13 @@ exports[`renders ./components/date-picker/demo/date-render.md extend context cor
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -7886,6 +7984,13 @@ exports[`renders ./components/date-picker/demo/date-render.md extend context cor
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -9051,6 +9156,13 @@ exports[`renders ./components/date-picker/demo/disabled.md extend context correc
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -9661,6 +9773,13 @@ exports[`renders ./components/date-picker/demo/disabled.md extend context correc
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -9943,6 +10062,13 @@ exports[`renders ./components/date-picker/demo/disabled.md extend context correc
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -11132,6 +11258,13 @@ exports[`renders ./components/date-picker/demo/disabled.md extend context correc
         style="left:0;width:0;position:absolute"
       />
       <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
+      <span
         class="ant-picker-clear"
       >
         <span
@@ -12314,6 +12447,13 @@ exports[`renders ./components/date-picker/demo/disabled-date.md extend context c
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -14275,6 +14415,13 @@ exports[`renders ./components/date-picker/demo/disabled-date.md extend context c
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -14555,6 +14702,13 @@ exports[`renders ./components/date-picker/demo/disabled-date.md extend context c
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -15742,6 +15896,13 @@ exports[`renders ./components/date-picker/demo/disabled-date.md extend context c
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -20239,6 +20400,13 @@ exports[`renders ./components/date-picker/demo/extra-footer.md extend context co
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -20853,6 +21021,13 @@ exports[`renders ./components/date-picker/demo/extra-footer.md extend context co
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -22854,6 +23029,13 @@ exports[`renders ./components/date-picker/demo/extra-footer.md extend context co
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -24051,6 +24233,13 @@ exports[`renders ./components/date-picker/demo/extra-footer.md extend context co
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -28549,6 +28738,13 @@ exports[`renders ./components/date-picker/demo/extra-footer.md extend context co
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -28810,6 +29006,13 @@ exports[`renders ./components/date-picker/demo/format.md extend context correctl
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
         <span
           class="ant-picker-clear"
           role="button"
@@ -29443,6 +29646,13 @@ exports[`renders ./components/date-picker/demo/format.md extend context correctl
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
         <span
           class="ant-picker-clear"
           role="button"
@@ -30077,6 +30287,13 @@ exports[`renders ./components/date-picker/demo/format.md extend context correctl
           value=""
         />
         <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
+        <span
           class="ant-picker-clear"
           role="button"
         >
@@ -30345,6 +30562,13 @@ exports[`renders ./components/date-picker/demo/format.md extend context correctl
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
         <span
           class="ant-picker-clear"
           role="button"
@@ -31073,6 +31297,13 @@ exports[`renders ./components/date-picker/demo/format.md extend context correctl
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
       <span
         class="ant-picker-clear"
       >
@@ -32249,6 +32480,13 @@ exports[`renders ./components/date-picker/demo/format.md extend context correctl
           value=""
         />
         <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
+        <span
           class="ant-picker-clear"
           role="button"
         >
@@ -32888,6 +33126,13 @@ exports[`renders ./components/date-picker/demo/mode.md extend context correctly 
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -34350,6 +34595,13 @@ exports[`renders ./components/date-picker/demo/mode.md extend context correctly 
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -34694,6 +34946,13 @@ Array [
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>,
   <div>
@@ -35335,6 +35594,13 @@ Array [
       class="ant-picker-active-bar"
       style="left:0;width:0;position:absolute"
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width:14px"
+      />
+    </span>
   </div>,
   <div>
     <div
@@ -36529,6 +36795,13 @@ exports[`renders ./components/date-picker/demo/presetted-ranges.md extend contex
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -37733,6 +38006,13 @@ exports[`renders ./components/date-picker/demo/presetted-ranges.md extend contex
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -42278,6 +42558,13 @@ exports[`renders ./components/date-picker/demo/presetted-ranges.md extend contex
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
       <span
         class="ant-picker-clear"
       >
@@ -49113,6 +49400,13 @@ exports[`renders ./components/date-picker/demo/range-picker.md extend context co
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -50301,6 +50595,13 @@ exports[`renders ./components/date-picker/demo/range-picker.md extend context co
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -54826,6 +55127,13 @@ exports[`renders ./components/date-picker/demo/range-picker.md extend context co
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -56152,6 +56460,13 @@ exports[`renders ./components/date-picker/demo/range-picker.md extend context co
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -56628,6 +56943,13 @@ exports[`renders ./components/date-picker/demo/range-picker.md extend context co
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -56931,6 +57253,13 @@ exports[`renders ./components/date-picker/demo/range-picker.md extend context co
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -57416,6 +57745,13 @@ Array [
       class="ant-picker-active-bar"
       style="left:0;width:0;position:absolute"
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width:14px"
+      />
+    </span>
   </div>,
   <div>
     <div
@@ -58642,6 +58978,13 @@ exports[`renders ./components/date-picker/demo/size.md extend context correctly 
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -59251,6 +59594,13 @@ exports[`renders ./components/date-picker/demo/size.md extend context correctly 
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -59531,6 +59881,13 @@ exports[`renders ./components/date-picker/demo/size.md extend context correctly 
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -60683,6 +61040,13 @@ exports[`renders ./components/date-picker/demo/size.md extend context correctly 
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -61359,6 +61723,13 @@ exports[`renders ./components/date-picker/demo/start-end.md extend context corre
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -63319,6 +63690,13 @@ exports[`renders ./components/date-picker/demo/start-end.md extend context corre
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -65289,6 +65667,13 @@ exports[`renders ./components/date-picker/demo/status.md extend context correctl
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -65899,6 +66284,13 @@ exports[`renders ./components/date-picker/demo/status.md extend context correctl
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -66544,6 +66936,13 @@ exports[`renders ./components/date-picker/demo/status.md extend context correctl
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -67733,6 +68132,13 @@ exports[`renders ./components/date-picker/demo/status.md extend context correctl
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -68922,6 +69328,13 @@ exports[`renders ./components/date-picker/demo/status.md extend context correctl
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -73447,6 +73860,13 @@ exports[`renders ./components/date-picker/demo/status.md extend context correctl
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -83685,6 +84105,13 @@ exports[`renders ./components/date-picker/demo/switchable.md extend context corr
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -85112,6 +85539,13 @@ exports[`renders ./components/date-picker/demo/time.md extend context correctly 
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
     <div>
@@ -87107,6 +87541,13 @@ exports[`renders ./components/date-picker/demo/time.md extend context correctly 
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
     <div>
       <div
@@ -91542,6 +91983,649 @@ exports[`renders ./components/date-picker/demo/time.md extend context correctly 
                     </span>
                   </button>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/date-picker/demo/variable-type.md extend context correctly 1`] = `
+<div
+  class="ant-space ant-space-vertical"
+>
+  <div
+    class="ant-space-item"
+  >
+    <div
+      class="ant-picker"
+    >
+      <div
+        class="ant-picker-input"
+      >
+        <span
+          class="ant-picker-prefix"
+        >
+          <svg
+            fill="currentColor"
+            height="20"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.5 12.25a.75.75 0 000 1.5h1a.75.75 0 000-1.5h-1z"
+            />
+            <path
+              d="M6.75 16a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75z"
+            />
+            <path
+              d="M11.5 12.25a.75.75 0 000 1.5h1a.75.75 0 000-1.5h-1z"
+            />
+            <path
+              d="M10.75 16a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75z"
+            />
+            <path
+              d="M15.5 12.25a.75.75 0 000 1.5h1a.75.75 0 000-1.5h-1z"
+            />
+            <path
+              d="M8.5 2a.75.75 0 01.75.75V4h5.5V2.75a.75.75 0 011.5 0V4H18a3 3 0 013 3v11a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h1.75V2.75A.75.75 0 018.5 2zm6.25 3.5h-5.5v1.25a.75.75 0 01-1.5 0V5.5H6A1.5 1.5 0 004.5 7v1.25h15V7A1.5 1.5 0 0018 5.5h-1.75v1.25a.75.75 0 01-1.5 0V5.5zM4.5 9.75V18A1.5 1.5 0 006 19.5h12a1.5 1.5 0 001.5-1.5V9.75h-15z"
+            />
+          </svg>
+        </span>
+        <input
+          autocomplete="off"
+          placeholder="Select date"
+          readonly=""
+          size="12"
+          title=""
+          value=""
+        />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
+      </div>
+    </div>
+    <div>
+      <div
+        class="ant-picker-dropdown"
+        style="opacity:0"
+      >
+        <div
+          class="ant-picker-panel-container"
+        >
+          <div
+            class="ant-picker-panel-layout"
+          >
+            <div
+              class="ant-picker-presets"
+            >
+              <ul>
+                <li
+                  class=""
+                >
+                  Hello World!
+                </li>
+                <li
+                  class=""
+                >
+                  今天
+                </li>
+                <li
+                  class=""
+                >
+                  明天
+                </li>
+              </ul>
+            </div>
+            <div
+              class="ant-picker-panel ant-picker-panel-focused"
+              tabindex="-1"
+            >
+              <div
+                class="ant-picker-date-panel"
+              >
+                <div
+                  class="ant-picker-header"
+                >
+                  <button
+                    class="ant-picker-header-super-prev-btn"
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="ant-picker-super-prev-icon"
+                    />
+                  </button>
+                  <button
+                    class="ant-picker-header-prev-btn"
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="ant-picker-prev-icon"
+                    />
+                  </button>
+                  <div
+                    class="ant-picker-header-view"
+                  >
+                    <button
+                      class="ant-picker-month-btn"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      Nov
+                    </button>
+                    <button
+                      class="ant-picker-year-btn"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      2016
+                    </button>
+                  </div>
+                  <button
+                    class="ant-picker-header-next-btn"
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="ant-picker-next-icon"
+                    />
+                  </button>
+                  <button
+                    class="ant-picker-header-super-next-btn"
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="ant-picker-super-next-icon"
+                    />
+                  </button>
+                </div>
+                <div
+                  class="ant-picker-body"
+                >
+                  <table
+                    class="ant-picker-content"
+                  >
+                    <thead>
+                      <tr>
+                        <th>
+                          Su
+                        </th>
+                        <th>
+                          Mo
+                        </th>
+                        <th>
+                          Tu
+                        </th>
+                        <th>
+                          We
+                        </th>
+                        <th>
+                          Th
+                        </th>
+                        <th>
+                          Fr
+                        </th>
+                        <th>
+                          Sa
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td
+                          class="ant-picker-cell"
+                          title="2016-10-30"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            30
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-end"
+                          title="2016-10-31"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            31
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-start ant-picker-cell-in-view"
+                          title="2016-11-01"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            1
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-02"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            2
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-03"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            3
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-04"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            4
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-05"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            5
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-06"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            6
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-07"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            7
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-08"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            8
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-09"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            9
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-10"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            10
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-11"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            11
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-12"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            12
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-13"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            13
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-14"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            14
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-15"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            15
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-16"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            16
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-17"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            17
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-18"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            18
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-19"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            19
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-20"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            20
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-21"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            21
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view ant-picker-cell-today"
+                          title="2016-11-22"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            22
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-23"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            23
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-24"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            24
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-25"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            25
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-26"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            26
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-27"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            27
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-28"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            28
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-in-view"
+                          title="2016-11-29"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            29
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-end ant-picker-cell-in-view"
+                          title="2016-11-30"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            30
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell ant-picker-cell-start"
+                          title="2016-12-01"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            1
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell"
+                          title="2016-12-02"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            2
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell"
+                          title="2016-12-03"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            3
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          class="ant-picker-cell"
+                          title="2016-12-04"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            4
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell"
+                          title="2016-12-05"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            5
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell"
+                          title="2016-12-06"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            6
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell"
+                          title="2016-12-07"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            7
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell"
+                          title="2016-12-08"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            8
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell"
+                          title="2016-12-09"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            9
+                          </div>
+                        </td>
+                        <td
+                          class="ant-picker-cell"
+                          title="2016-12-10"
+                        >
+                          <div
+                            class="ant-picker-cell-inner"
+                          >
+                            10
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div
+                class="ant-picker-footer"
+              >
+                <a
+                  class="ant-picker-today-btn"
+                >
+                  Today
+                </a>
               </div>
             </div>
           </div>

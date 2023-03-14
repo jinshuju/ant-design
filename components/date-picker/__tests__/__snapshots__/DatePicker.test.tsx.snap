@@ -46,6 +46,13 @@ Array [
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
     </div>
   </div>,
   <div>
@@ -656,6 +663,13 @@ Array [
         title="2000-01-01"
         value="2000-01-01"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width: 14px;"
+        />
+      </span>
       <span
         class="ant-picker-clear"
         role="button"

@@ -65,6 +65,13 @@ exports[`RangePicker customize separator 1`] = `
     class="ant-picker-active-bar"
     style="left: 0px; width: 0px; position: absolute;"
   />
+  <span
+    class="ant-picker-suffix"
+  >
+    <span
+      style="width: 14px;"
+    />
+  </span>
 </div>
 `;
 
@@ -149,6 +156,13 @@ Array [
       class="ant-picker-active-bar"
       style="left: 0px; width: 0px; position: absolute;"
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width: 14px;"
+      />
+    </span>
   </div>,
   <div>
     <div

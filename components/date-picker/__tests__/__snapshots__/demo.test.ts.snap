@@ -52,6 +52,13 @@ exports[`renders ./components/date-picker/demo/basic.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -103,6 +110,13 @@ exports[`renders ./components/date-picker/demo/basic.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -154,6 +168,13 @@ exports[`renders ./components/date-picker/demo/basic.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -205,6 +226,13 @@ exports[`renders ./components/date-picker/demo/basic.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -255,6 +283,13 @@ exports[`renders ./components/date-picker/demo/basic.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -313,6 +348,13 @@ exports[`renders ./components/date-picker/demo/bordered.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -364,6 +406,13 @@ exports[`renders ./components/date-picker/demo/bordered.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -415,6 +464,13 @@ exports[`renders ./components/date-picker/demo/bordered.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -466,6 +522,13 @@ exports[`renders ./components/date-picker/demo/bordered.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -552,6 +615,13 @@ exports[`renders ./components/date-picker/demo/bordered.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -637,6 +707,13 @@ exports[`renders ./components/date-picker/demo/bordered.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -722,6 +799,13 @@ exports[`renders ./components/date-picker/demo/bordered.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -806,6 +890,13 @@ exports[`renders ./components/date-picker/demo/bordered.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -863,6 +954,13 @@ exports[`renders ./components/date-picker/demo/date-render.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -948,6 +1046,13 @@ exports[`renders ./components/date-picker/demo/date-render.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -1006,6 +1111,13 @@ exports[`renders ./components/date-picker/demo/disabled.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -1058,6 +1170,13 @@ exports[`renders ./components/date-picker/demo/disabled.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -1146,6 +1265,13 @@ exports[`renders ./components/date-picker/demo/disabled.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -1232,6 +1358,13 @@ exports[`renders ./components/date-picker/demo/disabled.md correctly 1`] = `
         style="left:0;width:0;position:absolute"
       />
       <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
+      <span
         class="ant-picker-clear"
       >
         <span
@@ -1311,6 +1444,13 @@ exports[`renders ./components/date-picker/demo/disabled-date.md correctly 1`] = 
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -1362,6 +1502,13 @@ exports[`renders ./components/date-picker/demo/disabled-date.md correctly 1`] = 
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -1448,6 +1595,13 @@ exports[`renders ./components/date-picker/demo/disabled-date.md correctly 1`] = 
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -1532,6 +1686,13 @@ exports[`renders ./components/date-picker/demo/disabled-date.md correctly 1`] = 
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -1589,6 +1750,13 @@ exports[`renders ./components/date-picker/demo/extra-footer.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -1640,6 +1808,13 @@ exports[`renders ./components/date-picker/demo/extra-footer.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -1726,6 +1901,13 @@ exports[`renders ./components/date-picker/demo/extra-footer.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -1811,6 +1993,13 @@ exports[`renders ./components/date-picker/demo/extra-footer.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -1860,6 +2049,13 @@ exports[`renders ./components/date-picker/demo/extra-footer.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -1919,6 +2115,13 @@ exports[`renders ./components/date-picker/demo/format.md correctly 1`] = `
           value=""
         />
         <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
+        <span
           class="ant-picker-clear"
           role="button"
         >
@@ -1994,6 +2197,13 @@ exports[`renders ./components/date-picker/demo/format.md correctly 1`] = `
           value=""
         />
         <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
+        <span
           class="ant-picker-clear"
           role="button"
         >
@@ -2068,6 +2278,13 @@ exports[`renders ./components/date-picker/demo/format.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
         <span
           class="ant-picker-clear"
           role="button"
@@ -2144,6 +2361,13 @@ exports[`renders ./components/date-picker/demo/format.md correctly 1`] = `
           value=""
         />
         <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
+        <span
           class="ant-picker-clear"
           role="button"
         >
@@ -2254,6 +2478,13 @@ exports[`renders ./components/date-picker/demo/format.md correctly 1`] = `
         style="left:0;width:0;position:absolute"
       />
       <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
+      <span
         class="ant-picker-clear"
       >
         <span
@@ -2325,6 +2556,13 @@ exports[`renders ./components/date-picker/demo/format.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
         <span
           class="ant-picker-clear"
           role="button"
@@ -2407,6 +2645,13 @@ exports[`renders ./components/date-picker/demo/mode.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -2492,6 +2737,13 @@ exports[`renders ./components/date-picker/demo/mode.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -2626,6 +2878,13 @@ Array [
         title=""
         value=""
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>,
   <br />,
@@ -2709,6 +2968,13 @@ Array [
       class="ant-picker-active-bar"
       style="left:0;width:0;position:absolute"
     />
+    <span
+      class="ant-picker-suffix"
+    >
+      <span
+        style="width:14px"
+      />
+    </span>
   </div>,
 ]
 `;
@@ -2800,6 +3066,13 @@ exports[`renders ./components/date-picker/demo/presetted-ranges.md correctly 1`]
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -2885,6 +3158,13 @@ exports[`renders ./components/date-picker/demo/presetted-ranges.md correctly 1`]
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -2969,6 +3249,13 @@ exports[`renders ./components/date-picker/demo/presetted-ranges.md correctly 1`]
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
       <span
         class="ant-picker-clear"
       >
@@ -3084,6 +3371,13 @@ exports[`renders ./components/date-picker/demo/range-picker.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -3169,6 +3463,13 @@ exports[`renders ./components/date-picker/demo/range-picker.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -3254,6 +3555,13 @@ exports[`renders ./components/date-picker/demo/range-picker.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -3339,6 +3647,13 @@ exports[`renders ./components/date-picker/demo/range-picker.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -3424,6 +3739,13 @@ exports[`renders ./components/date-picker/demo/range-picker.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -3508,6 +3830,13 @@ exports[`renders ./components/date-picker/demo/range-picker.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -3593,6 +3922,13 @@ exports[`renders ./components/date-picker/demo/select-in-range.md correctly 1`] 
     class="ant-picker-active-bar"
     style="left:0;width:0;position:absolute"
   />
+  <span
+    class="ant-picker-suffix"
+  >
+    <span
+      style="width:14px"
+    />
+  </span>
 </div>
 `;
 
@@ -3715,6 +4051,13 @@ exports[`renders ./components/date-picker/demo/size.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -3766,6 +4109,13 @@ exports[`renders ./components/date-picker/demo/size.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -3852,6 +4202,13 @@ exports[`renders ./components/date-picker/demo/size.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -3901,6 +4258,13 @@ exports[`renders ./components/date-picker/demo/size.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -3959,6 +4323,13 @@ exports[`renders ./components/date-picker/demo/start-end.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -4009,6 +4380,13 @@ exports[`renders ./components/date-picker/demo/start-end.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -4069,6 +4447,13 @@ exports[`renders ./components/date-picker/demo/status.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -4121,6 +4506,13 @@ exports[`renders ./components/date-picker/demo/status.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -4208,6 +4600,13 @@ exports[`renders ./components/date-picker/demo/status.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -4294,6 +4693,13 @@ exports[`renders ./components/date-picker/demo/status.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -4380,6 +4786,13 @@ exports[`renders ./components/date-picker/demo/status.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
   <div
@@ -4465,6 +4878,13 @@ exports[`renders ./components/date-picker/demo/status.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
     </div>
   </div>
 </div>
@@ -5167,6 +5587,13 @@ exports[`renders ./components/date-picker/demo/switchable.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -5225,6 +5652,13 @@ exports[`renders ./components/date-picker/demo/time.md correctly 1`] = `
           title=""
           value=""
         />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
       </div>
     </div>
   </div>
@@ -5310,6 +5744,77 @@ exports[`renders ./components/date-picker/demo/time.md correctly 1`] = `
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
+      <span
+        class="ant-picker-suffix"
+      >
+        <span
+          style="width:14px"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/date-picker/demo/variable-type.md correctly 1`] = `
+<div
+  class="ant-space ant-space-vertical"
+>
+  <div
+    class="ant-space-item"
+  >
+    <div
+      class="ant-picker"
+    >
+      <div
+        class="ant-picker-input"
+      >
+        <span
+          class="ant-picker-prefix"
+        >
+          <svg
+            fill="currentColor"
+            height="20"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.5 12.25a.75.75 0 000 1.5h1a.75.75 0 000-1.5h-1z"
+            />
+            <path
+              d="M6.75 16a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75z"
+            />
+            <path
+              d="M11.5 12.25a.75.75 0 000 1.5h1a.75.75 0 000-1.5h-1z"
+            />
+            <path
+              d="M10.75 16a.75.75 0 01.75-.75h1a.75.75 0 010 1.5h-1a.75.75 0 01-.75-.75z"
+            />
+            <path
+              d="M15.5 12.25a.75.75 0 000 1.5h1a.75.75 0 000-1.5h-1z"
+            />
+            <path
+              d="M8.5 2a.75.75 0 01.75.75V4h5.5V2.75a.75.75 0 011.5 0V4H18a3 3 0 013 3v11a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h1.75V2.75A.75.75 0 018.5 2zm6.25 3.5h-5.5v1.25a.75.75 0 01-1.5 0V5.5H6A1.5 1.5 0 004.5 7v1.25h15V7A1.5 1.5 0 0018 5.5h-1.75v1.25a.75.75 0 01-1.5 0V5.5zM4.5 9.75V18A1.5 1.5 0 006 19.5h12a1.5 1.5 0 001.5-1.5V9.75h-15z"
+            />
+          </svg>
+        </span>
+        <input
+          autocomplete="off"
+          placeholder="Select date"
+          readonly=""
+          size="12"
+          title=""
+          value=""
+        />
+        <span
+          class="ant-picker-suffix"
+        >
+          <span
+            style="width:14px"
+          />
+        </span>
+      </div>
     </div>
   </div>
 </div>
