@@ -95,6 +95,8 @@ export default function generateRangePicker<DateType>(generateConfig: GenerateCo
       </>
     );
 
+    const suffixNode = <span style={{ width: 14 }} />;
+
     useImperativeHandle(ref, () => ({
       focus: () => innerRef.current?.focus(),
       blur: () => innerRef.current?.blur(),
@@ -117,6 +119,7 @@ export default function generateRangePicker<DateType>(generateConfig: GenerateCo
               dropdownAlign={transPlacement2DropdownAlign(direction, placement)}
               placeholder={getRangePlaceholder(picker, locale, placeholder)}
               prefixIcon={prefixNode}
+              suffixIcon={suffixNode}
               clearIcon={<CloseCircleFilled />}
               prevIcon={<span className={`${prefixCls}-prev-icon`} />}
               nextIcon={<span className={`${prefixCls}-next-icon`} />}

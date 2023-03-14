@@ -116,6 +116,8 @@ export default function generatePicker<DateType>(generateConfig: GenerateConfig<
           </>
         );
 
+        const suffixNode = <span style={{ width: 14 }} />;
+
         return (
           <LocaleReceiver componentName="DatePicker" defaultLocale={enUS}>
             {(contextLocale) => {
@@ -126,6 +128,7 @@ export default function generatePicker<DateType>(generateConfig: GenerateConfig<
                   ref={innerRef}
                   placeholder={getPlaceholder(mergedPicker, locale, placeholder)}
                   prefixIcon={prefixNode}
+                  suffixIcon={suffixNode}
                   dropdownAlign={transPlacement2DropdownAlign(direction, placement)}
                   clearIcon={<CloseCircleFilled />}
                   prevIcon={<span className={`${prefixCls}-prev-icon`} />}
