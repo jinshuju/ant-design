@@ -8,6 +8,24 @@ Array [
     <div
       class="ant-picker-input"
     >
+      <span
+        class="ant-picker-prefix"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+          />
+          <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+          />
+        </svg>
+      </span>
       <input
         autocomplete="off"
         placeholder="Select time"
@@ -16,32 +34,6 @@ Array [
         title=""
         value=""
       />
-      <span
-        class="ant-picker-suffix"
-      >
-        <span
-          aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
-          role="img"
-        >
-          <svg
-            aria-hidden="true"
-            data-icon="clock-circle"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-            />
-            <path
-              d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-            />
-          </svg>
-        </span>
-      </span>
     </div>
   </div>,
   <div>
@@ -1335,6 +1327,24 @@ Array [
     <div
       class="ant-picker-input"
     >
+      <span
+        class="ant-picker-prefix"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+          />
+          <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+          />
+        </svg>
+      </span>
       <input
         autocomplete="off"
         placeholder="Select time"
@@ -1343,32 +1353,6 @@ Array [
         title=""
         value=""
       />
-      <span
-        class="ant-picker-suffix"
-      >
-        <span
-          aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
-          role="img"
-        >
-          <svg
-            aria-hidden="true"
-            data-icon="clock-circle"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-            />
-            <path
-              d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-            />
-          </svg>
-        </span>
-      </span>
     </div>
   </div>,
   <div>
@@ -2661,6 +2645,24 @@ Array [
     <div
       class="ant-picker-input"
     >
+      <span
+        class="ant-picker-prefix"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+          />
+          <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+          />
+        </svg>
+      </span>
       <input
         autocomplete="off"
         placeholder="Select time"
@@ -2669,32 +2671,6 @@ Array [
         title=""
         value=""
       />
-      <span
-        class="ant-picker-suffix"
-      >
-        <span
-          aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
-          role="img"
-        >
-          <svg
-            aria-hidden="true"
-            data-icon="clock-circle"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-            />
-            <path
-              d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-            />
-          </svg>
-        </span>
-      </span>
     </div>
   </div>,
   <div>
@@ -3447,6 +3423,24 @@ Array [
     <div
       class="ant-picker-input"
     >
+      <span
+        class="ant-picker-prefix"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+          />
+          <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+          />
+        </svg>
+      </span>
       <input
         autocomplete="off"
         placeholder="Select time"
@@ -3455,32 +3449,6 @@ Array [
         title=""
         value=""
       />
-      <span
-        class="ant-picker-suffix"
-      >
-        <span
-          aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
-          role="img"
-        >
-          <svg
-            aria-hidden="true"
-            data-icon="clock-circle"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-            />
-            <path
-              d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-            />
-          </svg>
-        </span>
-      </span>
     </div>
   </div>,
   <div>
@@ -4875,6 +4843,24 @@ Array [
     <div
       class="ant-picker-input"
     >
+      <span
+        class="ant-picker-prefix"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+          />
+          <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+          />
+        </svg>
+      </span>
       <input
         autocomplete="off"
         placeholder="Select time"
@@ -4883,32 +4869,6 @@ Array [
         title=""
         value=""
       />
-      <span
-        class="ant-picker-suffix"
-      >
-        <span
-          aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
-          role="img"
-        >
-          <svg
-            aria-hidden="true"
-            data-icon="clock-circle"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-            />
-            <path
-              d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-            />
-          </svg>
-        </span>
-      </span>
     </div>
   </div>,
   <div>
@@ -6290,6 +6250,24 @@ Array [
     <div
       class="ant-picker-input"
     >
+      <span
+        class="ant-picker-prefix"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+          />
+          <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+          />
+        </svg>
+      </span>
       <input
         autocomplete="off"
         placeholder="Select time"
@@ -6298,32 +6276,6 @@ Array [
         title=""
         value=""
       />
-      <span
-        class="ant-picker-suffix"
-      >
-        <span
-          aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
-          role="img"
-        >
-          <svg
-            aria-hidden="true"
-            data-icon="clock-circle"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-            />
-            <path
-              d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-            />
-          </svg>
-        </span>
-      </span>
     </div>
   </div>,
   <div>
@@ -7698,6 +7650,24 @@ Array [
   <div
     class="ant-picker ant-picker-range ant-picker-borderless"
   >
+    <span
+      class="ant-picker-prefix"
+    >
+      <svg
+        fill="currentColor"
+        height="20"
+        viewBox="0 0 24 24"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+        />
+        <path
+          d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+        />
+      </svg>
+    </span>
     <div
       class="ant-picker-input ant-picker-input-active"
     >
@@ -7716,25 +7686,17 @@ Array [
         aria-label="to"
         class="ant-picker-separator"
       >
-        <span
-          aria-label="swap-right"
-          class="anticon anticon-swap-right"
-          role="img"
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            data-icon="swap-right"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="0 0 1024 1024"
-            width="1em"
-          >
-            <path
-              d="M873.1 596.2l-164-208A32 32 0 00684 376h-64.8c-6.7 0-10.4 7.7-6.3 13l144.3 183H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h695.9c26.8 0 41.7-30.8 25.2-51.8z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M16.53 7.47a.75.75 0 10-1.06 1.06l2.72 2.72H4a.75.75 0 000 1.5h16a.75.75 0 00.53-1.28l-4-4z"
+          />
+        </svg>
       </span>
     </div>
     <div
@@ -7752,32 +7714,6 @@ Array [
       class="ant-picker-active-bar"
       style="left:0;width:0;position:absolute"
     />
-    <span
-      class="ant-picker-suffix"
-    >
-      <span
-        aria-label="clock-circle"
-        class="anticon anticon-clock-circle"
-        role="img"
-      >
-        <svg
-          aria-hidden="true"
-          data-icon="clock-circle"
-          fill="currentColor"
-          focusable="false"
-          height="1em"
-          viewBox="64 64 896 896"
-          width="1em"
-        >
-          <path
-            d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-          />
-          <path
-            d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-          />
-        </svg>
-      </span>
-    </span>
   </div>,
   <div>
     <div
@@ -9166,6 +9102,24 @@ Array [
     <div
       class="ant-picker-input"
     >
+      <span
+        class="ant-picker-prefix"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+          />
+          <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+          />
+        </svg>
+      </span>
       <input
         autocomplete="off"
         placeholder="Select time"
@@ -9174,32 +9128,6 @@ Array [
         title=""
         value=""
       />
-      <span
-        class="ant-picker-suffix"
-      >
-        <span
-          aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
-          role="img"
-        >
-          <svg
-            aria-hidden="true"
-            data-icon="clock-circle"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-            />
-            <path
-              d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-            />
-          </svg>
-        </span>
-      </span>
     </div>
   </div>,
   <div>
@@ -10581,6 +10509,24 @@ Array [
     <div
       class="ant-picker-input"
     >
+      <span
+        class="ant-picker-prefix"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+          />
+          <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+          />
+        </svg>
+      </span>
       <input
         autocomplete="off"
         disabled=""
@@ -10590,32 +10536,6 @@ Array [
         title=""
         value=""
       />
-      <span
-        class="ant-picker-suffix"
-      >
-        <span
-          aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
-          role="img"
-        >
-          <svg
-            aria-hidden="true"
-            data-icon="clock-circle"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-            />
-            <path
-              d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-            />
-          </svg>
-        </span>
-      </span>
     </div>
   </div>,
   <div>
@@ -11997,6 +11917,24 @@ Array [
     <div
       class="ant-picker-input"
     >
+      <span
+        class="ant-picker-prefix"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+          />
+          <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+          />
+        </svg>
+      </span>
       <input
         autocomplete="off"
         placeholder="Select time"
@@ -12005,32 +11943,6 @@ Array [
         title=""
         value=""
       />
-      <span
-        class="ant-picker-suffix"
-      >
-        <span
-          aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
-          role="img"
-        >
-          <svg
-            aria-hidden="true"
-            data-icon="clock-circle"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-            />
-            <path
-              d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-            />
-          </svg>
-        </span>
-      </span>
       <span
         class="ant-picker-clear"
         role="button"
@@ -12891,6 +12803,24 @@ Array [
     <div
       class="ant-picker-input"
     >
+      <span
+        class="ant-picker-prefix"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+          />
+          <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+          />
+        </svg>
+      </span>
       <input
         autocomplete="off"
         placeholder="Select time"
@@ -12899,32 +12829,6 @@ Array [
         title=""
         value=""
       />
-      <span
-        class="ant-picker-suffix"
-      >
-        <span
-          aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
-          role="img"
-        >
-          <svg
-            aria-hidden="true"
-            data-icon="clock-circle"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-            />
-            <path
-              d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-            />
-          </svg>
-        </span>
-      </span>
     </div>
   </div>,
   <div>
@@ -13314,6 +13218,24 @@ Array [
   <div
     class="ant-picker ant-picker-range"
   >
+    <span
+      class="ant-picker-prefix"
+    >
+      <svg
+        fill="currentColor"
+        height="20"
+        viewBox="0 0 24 24"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+        />
+        <path
+          d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+        />
+      </svg>
+    </span>
     <div
       class="ant-picker-input ant-picker-input-active"
     >
@@ -13332,25 +13254,17 @@ Array [
         aria-label="to"
         class="ant-picker-separator"
       >
-        <span
-          aria-label="swap-right"
-          class="anticon anticon-swap-right"
-          role="img"
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            data-icon="swap-right"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="0 0 1024 1024"
-            width="1em"
-          >
-            <path
-              d="M873.1 596.2l-164-208A32 32 0 00684 376h-64.8c-6.7 0-10.4 7.7-6.3 13l144.3 183H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h695.9c26.8 0 41.7-30.8 25.2-51.8z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M16.53 7.47a.75.75 0 10-1.06 1.06l2.72 2.72H4a.75.75 0 000 1.5h16a.75.75 0 00.53-1.28l-4-4z"
+          />
+        </svg>
       </span>
     </div>
     <div
@@ -13368,32 +13282,6 @@ Array [
       class="ant-picker-active-bar"
       style="left:0;width:0;position:absolute"
     />
-    <span
-      class="ant-picker-suffix"
-    >
-      <span
-        aria-label="clock-circle"
-        class="anticon anticon-clock-circle"
-        role="img"
-      >
-        <svg
-          aria-hidden="true"
-          data-icon="clock-circle"
-          fill="currentColor"
-          focusable="false"
-          height="1em"
-          viewBox="64 64 896 896"
-          width="1em"
-        >
-          <path
-            d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-          />
-          <path
-            d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-          />
-        </svg>
-      </span>
-    </span>
   </div>,
   <div>
     <div
@@ -14782,6 +14670,24 @@ Array [
     <div
       class="ant-picker-input"
     >
+      <span
+        class="ant-picker-prefix"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+          />
+          <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+          />
+        </svg>
+      </span>
       <input
         autocomplete="off"
         placeholder="Select time"
@@ -14790,32 +14696,6 @@ Array [
         title=""
         value=""
       />
-      <span
-        class="ant-picker-suffix"
-      >
-        <span
-          aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
-          role="img"
-        >
-          <svg
-            aria-hidden="true"
-            data-icon="clock-circle"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-            />
-            <path
-              d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-            />
-          </svg>
-        </span>
-      </span>
       <span
         class="ant-picker-clear"
         role="button"
@@ -16216,6 +16096,24 @@ Array [
     <div
       class="ant-picker-input"
     >
+      <span
+        class="ant-picker-prefix"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+          />
+          <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+          />
+        </svg>
+      </span>
       <input
         autocomplete="off"
         placeholder="Select time"
@@ -16224,32 +16122,6 @@ Array [
         title=""
         value=""
       />
-      <span
-        class="ant-picker-suffix"
-      >
-        <span
-          aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
-          role="img"
-        >
-          <svg
-            aria-hidden="true"
-            data-icon="clock-circle"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-            />
-            <path
-              d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-            />
-          </svg>
-        </span>
-      </span>
       <span
         class="ant-picker-clear"
         role="button"
@@ -17650,6 +17522,24 @@ Array [
     <div
       class="ant-picker-input"
     >
+      <span
+        class="ant-picker-prefix"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+          />
+          <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+          />
+        </svg>
+      </span>
       <input
         autocomplete="off"
         placeholder="Select time"
@@ -17658,32 +17548,6 @@ Array [
         title=""
         value=""
       />
-      <span
-        class="ant-picker-suffix"
-      >
-        <span
-          aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
-          role="img"
-        >
-          <svg
-            aria-hidden="true"
-            data-icon="clock-circle"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-            />
-            <path
-              d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-            />
-          </svg>
-        </span>
-      </span>
       <span
         class="ant-picker-clear"
         role="button"
@@ -19095,6 +18959,24 @@ exports[`renders ./components/time-picker/demo/status.md extend context correctl
       <div
         class="ant-picker-input"
       >
+        <span
+          class="ant-picker-prefix"
+        >
+          <svg
+            fill="currentColor"
+            height="20"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+            />
+            <path
+              d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+            />
+          </svg>
+        </span>
         <input
           autocomplete="off"
           placeholder="Select time"
@@ -19103,32 +18985,6 @@ exports[`renders ./components/time-picker/demo/status.md extend context correctl
           title=""
           value=""
         />
-        <span
-          class="ant-picker-suffix"
-        >
-          <span
-            aria-label="clock-circle"
-            class="anticon anticon-clock-circle"
-            role="img"
-          >
-            <svg
-              aria-hidden="true"
-              data-icon="clock-circle"
-              fill="currentColor"
-              focusable="false"
-              height="1em"
-              viewBox="64 64 896 896"
-              width="1em"
-            >
-              <path
-                d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-              />
-              <path
-                d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-              />
-            </svg>
-          </span>
-        </span>
       </div>
     </div>
     <div>
@@ -20511,6 +20367,24 @@ exports[`renders ./components/time-picker/demo/status.md extend context correctl
       <div
         class="ant-picker-input"
       >
+        <span
+          class="ant-picker-prefix"
+        >
+          <svg
+            fill="currentColor"
+            height="20"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+            />
+            <path
+              d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+            />
+          </svg>
+        </span>
         <input
           autocomplete="off"
           placeholder="Select time"
@@ -20519,32 +20393,6 @@ exports[`renders ./components/time-picker/demo/status.md extend context correctl
           title=""
           value=""
         />
-        <span
-          class="ant-picker-suffix"
-        >
-          <span
-            aria-label="clock-circle"
-            class="anticon anticon-clock-circle"
-            role="img"
-          >
-            <svg
-              aria-hidden="true"
-              data-icon="clock-circle"
-              fill="currentColor"
-              focusable="false"
-              height="1em"
-              viewBox="64 64 896 896"
-              width="1em"
-            >
-              <path
-                d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-              />
-              <path
-                d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-              />
-            </svg>
-          </span>
-        </span>
       </div>
     </div>
     <div>
@@ -21924,6 +21772,24 @@ exports[`renders ./components/time-picker/demo/status.md extend context correctl
     <div
       class="ant-picker ant-picker-range ant-picker-status-error"
     >
+      <span
+        class="ant-picker-prefix"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+          />
+          <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+          />
+        </svg>
+      </span>
       <div
         class="ant-picker-input ant-picker-input-active"
       >
@@ -21942,25 +21808,17 @@ exports[`renders ./components/time-picker/demo/status.md extend context correctl
           aria-label="to"
           class="ant-picker-separator"
         >
-          <span
-            aria-label="swap-right"
-            class="anticon anticon-swap-right"
-            role="img"
+          <svg
+            fill="currentColor"
+            height="20"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              data-icon="swap-right"
-              fill="currentColor"
-              focusable="false"
-              height="1em"
-              viewBox="0 0 1024 1024"
-              width="1em"
-            >
-              <path
-                d="M873.1 596.2l-164-208A32 32 0 00684 376h-64.8c-6.7 0-10.4 7.7-6.3 13l144.3 183H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h695.9c26.8 0 41.7-30.8 25.2-51.8z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M16.53 7.47a.75.75 0 10-1.06 1.06l2.72 2.72H4a.75.75 0 000 1.5h16a.75.75 0 00.53-1.28l-4-4z"
+            />
+          </svg>
         </span>
       </div>
       <div
@@ -21978,32 +21836,6 @@ exports[`renders ./components/time-picker/demo/status.md extend context correctl
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
-      <span
-        class="ant-picker-suffix"
-      >
-        <span
-          aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
-          role="img"
-        >
-          <svg
-            aria-hidden="true"
-            data-icon="clock-circle"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-            />
-            <path
-              d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-            />
-          </svg>
-        </span>
-      </span>
     </div>
     <div>
       <div
@@ -23388,6 +23220,24 @@ exports[`renders ./components/time-picker/demo/status.md extend context correctl
     <div
       class="ant-picker ant-picker-range ant-picker-status-warning"
     >
+      <span
+        class="ant-picker-prefix"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+          />
+          <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+          />
+        </svg>
+      </span>
       <div
         class="ant-picker-input ant-picker-input-active"
       >
@@ -23406,25 +23256,17 @@ exports[`renders ./components/time-picker/demo/status.md extend context correctl
           aria-label="to"
           class="ant-picker-separator"
         >
-          <span
-            aria-label="swap-right"
-            class="anticon anticon-swap-right"
-            role="img"
+          <svg
+            fill="currentColor"
+            height="20"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              data-icon="swap-right"
-              fill="currentColor"
-              focusable="false"
-              height="1em"
-              viewBox="0 0 1024 1024"
-              width="1em"
-            >
-              <path
-                d="M873.1 596.2l-164-208A32 32 0 00684 376h-64.8c-6.7 0-10.4 7.7-6.3 13l144.3 183H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h695.9c26.8 0 41.7-30.8 25.2-51.8z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M16.53 7.47a.75.75 0 10-1.06 1.06l2.72 2.72H4a.75.75 0 000 1.5h16a.75.75 0 00.53-1.28l-4-4z"
+            />
+          </svg>
         </span>
       </div>
       <div
@@ -23442,32 +23284,6 @@ exports[`renders ./components/time-picker/demo/status.md extend context correctl
         class="ant-picker-active-bar"
         style="left:0;width:0;position:absolute"
       />
-      <span
-        class="ant-picker-suffix"
-      >
-        <span
-          aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
-          role="img"
-        >
-          <svg
-            aria-hidden="true"
-            data-icon="clock-circle"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-            />
-            <path
-              d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-            />
-          </svg>
-        </span>
-      </span>
     </div>
     <div>
       <div
@@ -24857,6 +24673,24 @@ Array [
     <div
       class="ant-picker-input"
     >
+      <span
+        class="ant-picker-prefix"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+          />
+          <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+          />
+        </svg>
+      </span>
       <input
         autocomplete="off"
         placeholder="Select time"
@@ -26269,6 +26103,24 @@ Array [
     <div
       class="ant-picker-input"
     >
+      <span
+        class="ant-picker-prefix"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.75 6a.75.75 0 00-1.5 0v6a.75.75 0 00.126.416l2 3a.75.75 0 101.248-.832l-1.874-2.811V6z"
+          />
+          <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-1.5 0a8.5 8.5 0 10-17 0 8.5 8.5 0 0017 0z"
+          />
+        </svg>
+      </span>
       <input
         autocomplete="off"
         placeholder="Select time"
@@ -26277,32 +26129,6 @@ Array [
         title=""
         value=""
       />
-      <span
-        class="ant-picker-suffix"
-      >
-        <span
-          aria-label="clock-circle"
-          class="anticon anticon-clock-circle"
-          role="img"
-        >
-          <svg
-            aria-hidden="true"
-            data-icon="clock-circle"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-            />
-            <path
-              d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"
-            />
-          </svg>
-        </span>
-      </span>
     </div>
   </div>,
   <div>
