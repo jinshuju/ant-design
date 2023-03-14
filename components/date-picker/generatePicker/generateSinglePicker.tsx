@@ -1,6 +1,5 @@
-import CalendarOutlined from '@ant-design/icons/CalendarOutlined';
-import ClockCircleOutlined from '@ant-design/icons/ClockCircleOutlined';
 import CloseCircleFilled from '@ant-design/icons/CloseCircleFilled';
+import { FiledDateIcon, FiledTimeIcon } from '@gd-uikit/icons';
 import classNames from 'classnames';
 import RCPicker from 'rc-picker';
 import type { GenerateConfig } from 'rc-picker/lib/generate/index';
@@ -110,9 +109,9 @@ export default function generatePicker<DateType>(generateConfig: GenerateConfig<
         const formItemContext = useContext(FormItemInputContext);
         const { hasFeedback, status: contextStatus, feedbackIcon } = formItemContext;
 
-        const suffixNode = (
+        const prefixNode = (
           <>
-            {mergedPicker === 'time' ? <ClockCircleOutlined /> : <CalendarOutlined />}
+            {picker === 'time' ? <FiledTimeIcon size={20} /> : <FiledDateIcon size={20} />}
             {hasFeedback && feedbackIcon}
           </>
         );
@@ -126,7 +125,7 @@ export default function generatePicker<DateType>(generateConfig: GenerateConfig<
                 <RCPicker<DateType>
                   ref={innerRef}
                   placeholder={getPlaceholder(mergedPicker, locale, placeholder)}
-                  suffixIcon={suffixNode}
+                  prefixIcon={prefixNode}
                   dropdownAlign={transPlacement2DropdownAlign(direction, placement)}
                   clearIcon={<CloseCircleFilled />}
                   prevIcon={<span className={`${prefixCls}-prev-icon`} />}

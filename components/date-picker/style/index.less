@@ -125,6 +125,24 @@
     }
   }
 
+  &-prefix {
+    display: flex;
+    flex: none;
+    align-self: center;
+    margin-right: (@padding-xs / 2);
+    color: @disabled-color;
+    line-height: 1;
+    pointer-events: none;
+
+    > * {
+      vertical-align: top;
+
+      &:not(:last-child) {
+        margin-right: 8px;
+      }
+    }
+  }
+
   &-clear {
     position: absolute;
     top: 50%;
@@ -345,7 +363,7 @@
     .@{picker-prefix-cls}-panel {
       vertical-align: top;
       background: transparent;
-      border-width: 0 0 @border-width-base 0;
+      border-width: 0;
       border-radius: 0;
 
       .@{picker-prefix-cls}-content,

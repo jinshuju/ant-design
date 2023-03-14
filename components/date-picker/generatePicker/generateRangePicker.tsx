@@ -1,8 +1,11 @@
-import CalendarOutlined from '@ant-design/icons/CalendarOutlined';
-import ClockCircleOutlined from '@ant-design/icons/ClockCircleOutlined';
 import CloseCircleFilled from '@ant-design/icons/CloseCircleFilled';
-import SwapRightOutlined from '@ant-design/icons/SwapRightOutlined';
-import { FunctionCloseSolidIcon, FunctionIndexDownIcon } from '@gd-uikit/icons';
+import {
+  FunctionCloseSolidIcon,
+  FiledDateIcon,
+  FiledTimeIcon,
+  ShowTimeArrowIcon,
+  FunctionIndexDownIcon,
+} from '@gd-uikit/icons';
 import classNames from 'classnames';
 import { RangePicker as RCRangePicker } from 'rc-picker';
 import type { GenerateConfig } from 'rc-picker/lib/generate/index';
@@ -85,9 +88,9 @@ export default function generateRangePicker<DateType>(generateConfig: GenerateCo
     const formItemContext = useContext(FormItemInputContext);
     const { hasFeedback, status: contextStatus, feedbackIcon } = formItemContext;
 
-    const suffixNode = (
+    const prefixNode = (
       <>
-        {picker === 'time' ? <ClockCircleOutlined /> : <CalendarOutlined />}
+        {picker === 'time' ? <FiledTimeIcon size={20} /> : <FiledDateIcon size={20} />}
         {hasFeedback && feedbackIcon}
       </>
     );
@@ -106,14 +109,14 @@ export default function generateRangePicker<DateType>(generateConfig: GenerateCo
             <RCRangePicker<DateType>
               separator={
                 <span aria-label="to" className={`${prefixCls}-separator`}>
-                  <SwapRightOutlined />
+                  <ShowTimeArrowIcon size={20} />
                 </span>
               }
               disabled={mergedDisabled}
               ref={innerRef}
               dropdownAlign={transPlacement2DropdownAlign(direction, placement)}
               placeholder={getRangePlaceholder(picker, locale, placeholder)}
-              suffixIcon={suffixNode}
+              prefixIcon={prefixNode}
               clearIcon={<CloseCircleFilled />}
               prevIcon={<span className={`${prefixCls}-prev-icon`} />}
               nextIcon={<span className={`${prefixCls}-next-icon`} />}

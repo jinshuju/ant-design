@@ -56,7 +56,7 @@ const App: React.FC = () => (
           value: [moment().startOf('month'), moment().endOf('month')],
         },
       ]}
-      presetsHeader={<div style={{ paddingLeft: 14, paddingTop: 10 }}>快速查看</div>}
+      presetsHeader={<div style={{ paddingLeft: 16, paddingTop: 10 }}>快速查看</div>}
       showTime
       format="YYYY/MM/DD HH:mm:ss"
       onChange={onChange}
@@ -72,7 +72,8 @@ const App: React.FC = () => (
           value: [moment().startOf('month'), moment().endOf('month')],
         },
       ]}
-      presetsHeader={<div style={{ paddingLeft: 14, paddingTop: 10 }}>快速查看</div>}
+      value={[moment().startOf('date'), moment().endOf('date')]}
+      presetsHeader={<div style={{ paddingLeft: 16, paddingTop: 10 }}>快速查看</div>}
       showTime={{
         showSecond: true,
         defaultValue: [moment('00:00:00', 'HH:mm:ss'), moment('23:59:59', 'HH:mm:ss')],

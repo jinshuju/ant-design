@@ -138,7 +138,7 @@
     "rc-motion": "^2.6.1",
     "rc-notification": "~4.6.0",
     "rc-pagination": "~3.2.0",
-    "rc-picker": "npm:@gd-uikit/picker@3.3.11",
+    "rc-picker": "npm:@gd-uikit/picker@3.3.14",
     "rc-progress": "~3.4.1",
     "rc-rate": "~2.9.0",
     "rc-resize-observer": "^1.2.0",
