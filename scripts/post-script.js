@@ -21,7 +21,7 @@ const DEPRECIATED_VERSION = {
 };
 
 function matchDeprecated(version) {
-  const match = Object.keys(DEPRECIATED_VERSION).find(depreciated =>
+  const match = Object.keys(DEPRECIATED_VERSION).find((depreciated) =>
     semver.satisfies(version, depreciated),
   );
 
@@ -38,15 +38,15 @@ const SAFE_DAYS_DIFF = 1000 * 60 * 60 * 24 * 3; // 3 days not update seems to be
 
 (async function process() {
   console.log(chalk.cyan('🤖 Post Publish Scripting...\n'));
-  const { time, 'dist-tags': distTags } = await fetch('http://registry.npmjs.org/@gd-uikit/antd').then(res =>
-    res.json(),
-  );
+  const { time, 'dist-tags': distTags } = await fetch(
+    'https://registry.npmjs.org/@gd-uikit/antd',
+  ).then((res) => res.json());
 
   console.log('🐚 Latest Conch Version:', chalk.green(distTags.conch || 'null'), '\n');
 
   // Sort and get the latest versions
   const versionList = Object.keys(time)
-    .filter(version => semver.valid(version) && !semver.prerelease(version))
+    .filter((version) => semver.valid(version) && !semver.prerelease(version))
     .sort((v1, v2) => {
       const time1 = moment(time[v1]).valueOf();
       const time2 = moment(time[v2]).valueOf();
@@ -59,7 +59,7 @@ const SAFE_DAYS_DIFF = 1000 * 60 * 60 * 24 * 3; // 3 days not update seems to be
     // Cut off
     .slice(0, 30)
     // Formatter
-    .map(version => ({
+    .map((version) => ({
       publishTime: time[version],
       timeDiff: moment().diff(moment(time[version])),
       value: version,
@@ -95,7 +95,7 @@ const SAFE_DAYS_DIFF = 1000 * 60 * 60 * 24 * 3; // 3 days not update seems to be
   let defaultVersion = defaultVersionObj ? defaultVersionObj.value : null;
 
   // If default version is less than current, use current
-  if (semver.compare(defaultVersion, distTags.conch) < 0) {
+  if (distTags.conch && semver.compare(defaultVersion, distTags.conch) < 0) {
     defaultVersion = distTags.conch;
   }
 
@@ -107,7 +107,7 @@ const SAFE_DAYS_DIFF = 1000 * 60 * 60 * 24 * 3; // 3 days not update seems to be
       name: 'conchVersion',
       default: defaultVersion,
       message: 'Please select Conch Version:',
-      choices: latestVersions.map(info => {
+      choices: latestVersions.map((info) => {
         const { value, publishTime, depreciated } = info;
         const desc = moment(publishTime).fromNow();
 
@@ -127,7 +127,7 @@ const SAFE_DAYS_DIFF = 1000 * 60 * 60 * 24 * 3; // 3 days not update seems to be
             // Current Mark
             value === distTags.conch ? chalk.gray('- current') : '',
           ]
-            .filter(str => String(str).trim())
+            .filter((str) => String(str).trim())
             .join(' '),
         };
       }),
@@ -139,7 +139,7 @@ const SAFE_DAYS_DIFF = 1000 * 60 * 60 * 24 * 3; // 3 days not update seems to be
   if (deprecatedObj.match) {
     console.log('\n');
     console.log(chalk.red('Deprecated For:'));
-    deprecatedObj.reason.forEach(reason => {
+    deprecatedObj.reason.forEach((reason) => {
       console.log(chalk.yellow(`  * ${reason}`));
     });
     console.log('\n');
@@ -163,9 +163,19 @@ const SAFE_DAYS_DIFF = 1000 * 60 * 60 * 24 * 3; // 3 days not update seems to be
     console.log(`🎃 Conch Version not change. Safe to ${chalk.green('ignore')}.`);
   } else {
     console.log('💾 Tagging Conch Version:', chalk.green(conchVersion));
-    spawnSync('npm', ['dist-tag', 'add', `antd@${conchVersion}`, 'conch'], {
-      stdio: 'inherit',
-      stdin: 'inherit',
-    });
+    spawnSync(
+      'npm',
+      [
+        'dist-tag',
+        '--registry=https://registry.npmjs.org',
+        'add',
+        `@gd-uikit/antd@${conchVersion}`,
+        'conch',
+      ],
+      {
+        stdio: 'inherit',
+        stdin: 'inherit',
+      },
+    );
   }
 })();

@@ -20329,7 +20329,7 @@ exports[`renders ./components/date-picker/demo/disabled-date.md extend context c
                   class="ant-picker-operation"
                 >
                   <button
-                    class="ant-btn ant-btn-primary ant-picker-confirm-btn"
+                    class="ant-btn ant-btn-primary ant-btn-sm ant-picker-confirm-btn"
                     disabled=""
                     type="button"
                   >
@@ -28666,7 +28666,7 @@ exports[`renders ./components/date-picker/demo/extra-footer.md extend context co
                   class="ant-picker-operation"
                 >
                   <button
-                    class="ant-btn ant-btn-primary ant-picker-confirm-btn"
+                    class="ant-btn ant-btn-primary ant-btn-sm ant-picker-confirm-btn"
                     disabled=""
                     type="button"
                   >
@@ -42460,7 +42460,7 @@ exports[`renders ./components/date-picker/demo/presetted-ranges.md extend contex
                   class="ant-picker-operation"
                 >
                   <button
-                    class="ant-btn ant-btn-primary ant-picker-confirm-btn"
+                    class="ant-btn ant-btn-primary ant-btn-sm ant-picker-confirm-btn"
                     disabled=""
                     type="button"
                   >
@@ -49295,7 +49295,7 @@ exports[`renders ./components/date-picker/demo/presetted-ranges.md extend contex
                   class="ant-picker-operation"
                 >
                   <button
-                    class="ant-btn ant-btn-primary ant-picker-confirm-btn"
+                    class="ant-btn ant-btn-primary ant-btn-sm ant-picker-confirm-btn"
                     type="button"
                   >
                     <span>
@@ -55028,7 +55028,7 @@ exports[`renders ./components/date-picker/demo/range-picker.md extend context co
                   class="ant-picker-operation"
                 >
                   <button
-                    class="ant-btn ant-btn-primary ant-picker-confirm-btn"
+                    class="ant-btn ant-btn-primary ant-btn-sm ant-picker-confirm-btn"
                     disabled=""
                     type="button"
                   >
@@ -73761,7 +73761,7 @@ exports[`renders ./components/date-picker/demo/status.md extend context correctl
                   class="ant-picker-operation"
                 >
                   <button
-                    class="ant-btn ant-btn-primary ant-picker-confirm-btn"
+                    class="ant-btn ant-btn-primary ant-btn-sm ant-picker-confirm-btn"
                     disabled=""
                     type="button"
                   >
@@ -78293,7 +78293,7 @@ exports[`renders ./components/date-picker/demo/status.md extend context correctl
                   class="ant-picker-operation"
                 >
                   <button
-                    class="ant-btn ant-btn-primary ant-picker-confirm-btn"
+                    class="ant-btn ant-btn-primary ant-btn-sm ant-picker-confirm-btn"
                     disabled=""
                     type="button"
                   >
@@ -91974,7 +91974,7 @@ exports[`renders ./components/date-picker/demo/time.md extend context correctly 
                   class="ant-picker-operation"
                 >
                   <button
-                    class="ant-btn ant-btn-primary ant-picker-confirm-btn"
+                    class="ant-btn ant-btn-primary ant-btn-sm ant-picker-confirm-btn"
                     disabled=""
                     type="button"
                   >

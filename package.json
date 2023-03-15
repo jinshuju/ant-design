@@ -118,7 +118,7 @@
     "@ant-design/react-slick": "~0.29.1",
     "@babel/runtime": "^7.18.3",
     "@ctrl/tinycolor": "^3.4.0",
-    "@gd-uikit/icons": "latest",
+    "@gd-uikit/icons": "^1.1.59",
     "classnames": "^2.2.6",
     "copy-to-clipboard": "^3.2.0",
     "lodash": "^4.17.21",
@@ -138,7 +138,7 @@
     "rc-motion": "^2.6.1",
     "rc-notification": "~4.6.0",
     "rc-pagination": "~3.2.0",
-    "rc-picker": "npm:@gd-uikit/picker@3.3.15",
+    "rc-picker": "npm:@gd-uikit/picker@3.3.17",
     "rc-progress": "~3.4.1",
     "rc-rate": "~2.9.0",
     "rc-resize-observer": "^1.2.0",
@@ -300,7 +300,8 @@
   },
   "peerDependencies": {
     "react": ">=16.9.0",
-    "react-dom": ">=16.9.0"
+    "react-dom": ">=16.9.0",
+    "@gd-uikit/icons": ">=1.1.59"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

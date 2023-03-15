@@ -19650,7 +19650,7 @@ exports[`renders ./components/form/demo/time-related-controls.md extend context 
                           class="ant-picker-operation"
                         >
                           <button
-                            class="ant-btn ant-btn-primary ant-picker-confirm-btn"
+                            class="ant-btn ant-btn-primary ant-btn-sm ant-picker-confirm-btn"
                             disabled=""
                             type="button"
                           >
