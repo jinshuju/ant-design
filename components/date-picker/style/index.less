@@ -414,12 +414,15 @@
           background-color: @background-color-light;
         }
       }
-    }
-  }
 
-  &-preset-active {
-    color: @text-color-inverse;
-    background-color: @picker-basic-cell-select-color;
+      li.@{picker-prefix-cls}-preset-active {
+        &,
+        &:hover {
+          color: @text-color-inverse;
+          background-color: @picker-basic-cell-select-color;
+        }
+      }
+    }
   }
 
   // ===================== Compact Item Styles =====================

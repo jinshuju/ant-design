@@ -190,7 +190,7 @@ const Header: React.FC<HeaderProps & WrappedComponentProps<'intl'>> = (props) =>
       currentProtocol +
       currentHref.replace(
         window.location.pathname,
-        utils.getLocalizedPathname(`/ant-desgin/${pathname}`, !utils.isZhCN(pathname), query)
+        utils.getLocalizedPathname(`/ant-design/${pathname}`, !utils.isZhCN(pathname), query)
           .pathname,
       );
   }, [location]);

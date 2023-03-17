@@ -1,6 +1,5 @@
 ---
 order: 100
-debug: true
 title:
   zh-CN: 变量类型
   en-US: Variable Type
