@@ -5120,7 +5120,8 @@ textarea.ant-picker-input > input {
 .ant-picker-presets ul li:hover {
   background-color: #fafafa;
 }
-.ant-picker-preset-active {
+.ant-picker-presets ul li.ant-picker-preset-active,
+.ant-picker-presets ul li.ant-picker-preset-active:hover {
   color: #fff;
   background-color: #1890ff;
 }
