@@ -1,4 +1,4 @@
-import CloseOutlined from '@ant-design/icons/CloseOutlined';
+import { FunctionCloseIcon } from '@gd-uikit/icons';
 import classNames from 'classnames';
 import Dialog from 'rc-dialog';
 import * as React from 'react';
@@ -149,7 +149,7 @@ export interface ModalLocale {
   justOkText: string;
 }
 
-const Modal: React.FC<ModalProps> = (props) => {
+const Modal: React.FC<ModalProps> = props => {
   const {
     getPopupContainer: getContextPopupContainer,
     getPrefixCls,
@@ -191,7 +191,7 @@ const Modal: React.FC<ModalProps> = (props) => {
 
   const defaultFooter = (
     <LocaleReceiver componentName="Modal" defaultLocale={getConfirmLocale()}>
-      {(contextLocale) => {
+      {contextLocale => {
         const { okText, okType = 'primary', cancelText, confirmLoading = false } = props;
 
         return (
@@ -215,7 +215,7 @@ const Modal: React.FC<ModalProps> = (props) => {
 
   const closeIconToRender = (
     <span className={`${prefixCls}-close-x`}>
-      {closeIcon || <CloseOutlined className={`${prefixCls}-close-icon`} />}
+      {closeIcon || <FunctionCloseIcon className={`${prefixCls}-close-icon`} />}
     </span>
   );
 
