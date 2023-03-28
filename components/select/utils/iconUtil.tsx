@@ -1,9 +1,12 @@
-import CheckOutlined from '@ant-design/icons/CheckOutlined';
 import CloseCircleFilled from '@ant-design/icons/CloseCircleFilled';
-import CloseOutlined from '@ant-design/icons/CloseOutlined';
-import DownOutlined from '@ant-design/icons/DownOutlined';
 import LoadingOutlined from '@ant-design/icons/LoadingOutlined';
-import SearchOutlined from '@ant-design/icons/SearchOutlined';
+import {
+  FunctionCheckIcon,
+  FunctionCloseIcon,
+  FunctionIndexDownIcon,
+  FunctionIndexUpIcon,
+  FunctionSearchIcon,
+} from '@gd-uikit/icons';
 import type { ReactNode } from 'react';
 import * as React from 'react';
 
@@ -53,9 +56,14 @@ export default function getIcons({
     const iconCls = `${prefixCls}-suffix`;
     mergedSuffixIcon = ({ open, showSearch }: { open: boolean; showSearch: boolean }) => {
       if (open && showSearch) {
-        return getSuffixIconNode(<SearchOutlined className={iconCls} />);
+        return getSuffixIconNode(<FunctionSearchIcon className={iconCls} size={18} />);
       }
-      return getSuffixIconNode(<DownOutlined className={iconCls} />);
+
+      if (open) {
+        return getSuffixIconNode(<FunctionIndexUpIcon className={iconCls} size={20} />);
+      }
+
+      return getSuffixIconNode(<FunctionIndexDownIcon className={iconCls} size={20} />);
     };
   }
 
@@ -64,7 +72,7 @@ export default function getIcons({
   if (menuItemSelectedIcon !== undefined) {
     mergedItemIcon = menuItemSelectedIcon;
   } else if (multiple) {
-    mergedItemIcon = <CheckOutlined />;
+    mergedItemIcon = <FunctionCheckIcon size={20} />;
   } else {
     mergedItemIcon = null;
   }
@@ -73,7 +81,7 @@ export default function getIcons({
   if (removeIcon !== undefined) {
     mergedRemoveIcon = removeIcon;
   } else {
-    mergedRemoveIcon = <CloseOutlined />;
+    mergedRemoveIcon = <FunctionCloseIcon size={18} />;
   }
 
   return {

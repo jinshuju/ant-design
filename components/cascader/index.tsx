@@ -1,6 +1,4 @@
-import LeftOutlined from '@ant-design/icons/LeftOutlined';
 import LoadingOutlined from '@ant-design/icons/LoadingOutlined';
-import RightOutlined from '@ant-design/icons/RightOutlined';
 import classNames from 'classnames';
 import type {
   BaseOptionType,
@@ -14,6 +12,7 @@ import RcCascader from 'rc-cascader';
 import omit from 'rc-util/lib/omit';
 import * as React from 'react';
 import { useContext } from 'react';
+import { FunctionIndexLeftIcon, FunctionIndexRightIcon } from '@gd-uikit/icons';
 import { ConfigContext } from '../config-provider';
 import defaultRenderEmpty from '../config-provider/defaultRenderEmpty';
 import DisabledContext from '../config-provider/DisabledContext';
@@ -230,7 +229,11 @@ const Cascader = React.forwardRef((props: CascaderProps<any>, ref: React.Ref<Cas
   // ===================== Icon ======================
   let mergedExpandIcon = expandIcon;
   if (!expandIcon) {
-    mergedExpandIcon = isRtl ? <LeftOutlined /> : <RightOutlined />;
+    mergedExpandIcon = isRtl ? (
+      <FunctionIndexLeftIcon size={20} />
+    ) : (
+      <FunctionIndexRightIcon size={20} />
+    );
   }
 
   const loadingIcon = (

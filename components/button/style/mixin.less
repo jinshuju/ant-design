@@ -278,13 +278,19 @@
 .btn-default() {
   .button-variant-other(@btn-default-color; @btn-default-bg; @btn-default-border; );
 
-  &:hover,
-  &:focus,
-  &:active {
+  &:hover {
     color: @btn-default-hover-color;
     text-decoration: none;
     background: @btn-default-bg;
     border-color: @btn-default-hover-color;
+  }
+
+  &:focus,
+  &:active {
+    color: @btn-default-active-color;
+    text-decoration: none;
+    background: @btn-default-bg;
+    border-color: @btn-default-active-color;
   }
 }
 
@@ -296,6 +302,22 @@
 // dashed button style
 .btn-dashed() {
   .button-variant-other(@btn-default-color, @btn-default-bg, @btn-default-border);
+
+  &:hover {
+    color: @btn-default-hover-color;
+    text-decoration: none;
+    background: @btn-default-bg;
+    border-color: @btn-default-hover-color;
+  }
+
+  &:focus,
+  &:active {
+    color: @btn-default-active-color;
+    text-decoration: none;
+    background: @btn-default-bg;
+    border-color: @btn-default-active-color;
+  }
+
   border-style: dashed;
 }
 
@@ -383,12 +405,14 @@
   box-shadow: none;
 
   &:hover {
+    color: @btn-link-hover-color;
     background: @btn-link-hover-bg;
+    border-color: transparent;
   }
 
-  &:hover,
   &:focus,
   &:active {
+    color: @btn-default-active-color;
     border-color: transparent;
   }
 

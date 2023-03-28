@@ -86,8 +86,11 @@
 
       &-expand &-expand-icon,
       &-loading-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-left: @padding-xss;
-        color: @text-color-secondary;
+        color: @color-neutral-70;
         font-size: 10px;
 
         .@{cascader-prefix-cls}-menu-item-disabled& {

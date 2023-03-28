@@ -76,7 +76,6 @@
       margin-bottom: @select-multiple-item-spacing-half;
       line-height: @select-multiple-item-height - @select-multiple-item-border-width * 2;
       background: @select-selection-item-bg;
-      border: 1px solid @select-selection-item-border-color;
       border-radius: @border-radius-base;
       cursor: default;
       transition: font-size 0.3s, line-height 0.3s, height 0.3s;
@@ -102,8 +101,10 @@
 
       &-remove {
         .iconfont-mixin();
-        display: inline-block;
-        color: @text-color-secondary;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: @color-neutral-70;
         font-weight: bold;
         font-size: 10px;
         line-height: inherit;
