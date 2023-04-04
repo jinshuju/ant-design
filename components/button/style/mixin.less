@@ -55,8 +55,11 @@
   text-shadow: @btn-text-shadow;
   box-shadow: @btn-primary-shadow;
 
-  &:hover,
   &:focus {
+    .button-color(@color; @background; @background);
+  }
+
+  &:hover {
     & when (@theme =dark) {
       .button-color(@color; ~`colorPalette('@{background}', 7) `; ~`colorPalette('@{background}', 7) `);
     }
@@ -84,14 +87,17 @@
     }
   }
 
-  .button-disabled();
+  .button-disabled(@btn-disabled-color; @btn-disabled-bg; @btn-disabled-bg);
 }
 
 .button-variant-other(@color; @background; @border) {
   .button-color(@color; @background; @border);
 
-  &:hover,
   &:focus {
+    .button-color(@color; @background; @border);
+  }
+
+  &:hover {
     & when (@theme =dark) {
       .button-color(@primary-5; @background; @primary-5);
     }
@@ -121,15 +127,18 @@
     }
   }
 
-  .button-disabled();
+  .button-disabled(@btn-disabled-color; @btn-disabled-bg; @border);
 }
 
 .button-variant-ghost(@color; @border; @borderHover: yellow; @borderActive: yellow) {
   .button-color(@color; null; @border);
   text-shadow: none;
 
-  &:hover,
   &:focus {
+    .button-color(@color; null; @border);
+  }
+
+  &:hover {
     & when (@border =transparent) {
       & when (@theme =dark) {
         .button-color(~`colorPalette('@{color}', 7) `; null; transparent);
@@ -189,7 +198,7 @@
     }
   }
 
-  .button-disabled();
+  .button-disabled(@btn-disabled-color; @btn-disabled-bg; @border);
 }
 
 .button-group-base(@btnClassName) {
@@ -271,7 +280,12 @@
 
 // primary button style
 .btn-primary() {
-  .button-variant-primary(@btn-primary-color; @btn-primary-bg; @primary-color-hover; @primary-color-active);
+  .button-variant-primary(@btn-primary-color; @btn-primary-bg; @btn-primary-hover-bg; @btn-primary-active-bg);
+}
+
+// secondary button style
+.btn-secondary() {
+  .button-variant-primary(@btn-default-color; @btn-secondary-bg; @btn-secondary-hover-bg; @btn-secondary-active-bg);
 }
 
 // default button style
@@ -285,7 +299,6 @@
     border-color: @btn-default-hover-color;
   }
 
-  &:focus,
   &:active {
     color: @btn-default-active-color;
     text-decoration: none;
@@ -310,7 +323,6 @@
     border-color: @btn-default-hover-color;
   }
 
-  &:focus,
   &:active {
     color: @btn-default-active-color;
     text-decoration: none;
@@ -330,8 +342,11 @@
 .btn-danger-default() {
   .button-color(@error-color, @btn-default-bg, @error-color);
 
-  &:hover,
   &:focus {
+    .button-color(@error-color, @btn-default-bg, @error-color);
+  }
+
+  &:hover {
     & when (@theme =dark) {
       .button-color(~`colorPalette('@{error-color}', 7) `; @btn-default-bg; ~`colorPalette('@{error-color}', 7) `);
     }
@@ -359,7 +374,7 @@
     }
   }
 
-  .button-disabled();
+  .button-disabled(@btn-disabled-color; @btn-disabled-bg; @btn-disabled-bg);
 }
 
 // danger link button style
@@ -367,8 +382,7 @@
   .button-variant-other(@error-color, transparent, transparent);
   box-shadow: none;
 
-  &:hover,
-  &:focus {
+  &:hover {
     & when (@theme =dark) {
       .button-color(~`colorPalette('@{error-color}', 7) `; transparent; transparent);
     }
@@ -402,18 +416,52 @@
 // link button style
 .btn-link() {
   .button-variant-other(@link-color, transparent, transparent);
+
   box-shadow: none;
 
   &:hover {
     color: @btn-link-hover-color;
-    background: @btn-link-hover-bg;
+    background: transparent;
     border-color: transparent;
   }
 
-  &:focus,
   &:active {
     color: @btn-default-active-color;
+    background: transparent;
     border-color: transparent;
+  }
+
+  .button-disabled(@disabled-color; transparent; transparent);
+}
+
+.btn-dashlink() {
+  .button-variant-other(@btn-dashlink-color, transparent, transparent);
+
+  display: inline;
+  padding: 0px 2px;
+  white-space: unset;
+  text-align: left;
+  border-bottom: 1px dashed @btn-dashlink-border-color;
+  border-radius: 0;
+  box-shadow: none;
+  user-select: unset;
+
+  & > span {
+    display: inline !important;
+  }
+
+  &:hover {
+    color: @btn-dashlink-hover-color;
+    background: transparent;
+    border-color: transparent;
+    border-bottom: 1px dashed @btn-dashlink-color;
+  }
+
+  &:active {
+    color: @btn-dashlink-hover-color;
+    background: transparent;
+    border-color: transparent;
+    border-bottom: 1px dashed @btn-dashlink-color;
   }
 
   .button-disabled(@disabled-color; transparent; transparent);
@@ -443,8 +491,7 @@
   .button-variant-other(@text-color, transparent, transparent);
   box-shadow: none;
 
-  &:hover,
-  &:focus {
+  &:hover {
     color: @text-color;
     background: @btn-text-hover-bg;
     border-color: transparent;
@@ -463,8 +510,7 @@
   .button-variant-other(@error-color, transparent, transparent);
   box-shadow: none;
 
-  &:hover,
-  &:focus {
+  &:hover {
     & when (@theme =dark) {
       .button-color(~`colorPalette('@{error-color}', 7) `; @btn-text-hover-bg; transparent);
     }

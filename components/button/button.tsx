@@ -21,8 +21,12 @@ function isString(str: any) {
   return typeof str === 'string';
 }
 
+function isLinkButtonType(type: ButtonType | undefined) {
+  return type === 'link' || type === 'dashlink';
+}
+
 function isUnBorderedButtonType(type: ButtonType | undefined) {
-  return type === 'text' || type === 'link';
+  return type === 'text' || isLinkButtonType(type);
 }
 
 // Insert one space between two chinese characters automatically.
@@ -55,7 +59,7 @@ function insertSpace(child: React.ReactElement | string | number, needInserted: 
 function spaceChildren(children: React.ReactNode, needInserted: boolean) {
   let isPrevChildPure: boolean = false;
   const childList: React.ReactNode[] = [];
-  React.Children.forEach(children, child => {
+  React.Children.forEach(children, (child) => {
     const type = typeof child;
     const isCurrentChildPure = type === 'string' || type === 'number';
     if (isPrevChildPure && isCurrentChildPure) {
@@ -70,12 +74,21 @@ function spaceChildren(children: React.ReactNode, needInserted: boolean) {
   });
 
   // Pass to React.Children.map to auto fill key
-  return React.Children.map(childList, child =>
+  return React.Children.map(childList, (child) =>
     insertSpace(child as React.ReactElement | string | number, needInserted),
   );
 }
 
-const ButtonTypes = tuple('default', 'primary', 'ghost', 'dashed', 'link', 'text');
+const ButtonTypes = tuple(
+  'default',
+  'primary',
+  'secondary',
+  'ghost',
+  'dashed',
+  'link',
+  'dashlink',
+  'text',
+);
 export type ButtonType = typeof ButtonTypes[number];
 const ButtonShapes = tuple('default', 'circle', 'round');
 export type ButtonShape = typeof ButtonShapes[number];
@@ -281,6 +294,22 @@ const InternalButton: React.ForwardRefRenderFunction<unknown, ButtonProps> = (pr
   if (linkButtonRestProps.href !== undefined) {
     return (
       <a {...linkButtonRestProps} className={classes} onClick={handleClick} ref={buttonRef}>
+        {iconNode}
+        {kids}
+      </a>
+    );
+  }
+
+  if (isLinkButtonType(type)) {
+    return (
+      <a
+        {...(rest as NativeButtonProps)}
+        className={classes}
+        onClick={handleClick}
+        // @ts-ignore
+        disabled={mergedDisabled}
+        ref={buttonRef}
+      >
         {iconNode}
         {kids}
       </a>

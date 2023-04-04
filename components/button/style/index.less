@@ -61,6 +61,10 @@
     }
   }
 
+  &-secondary {
+    .btn-secondary();
+  }
+
   &-ghost {
     .btn-ghost();
   }
@@ -79,6 +83,10 @@
     .btn-link();
   }
 
+  &-dashlink {
+    .btn-dashlink();
+  }
+
   &-text {
     .btn-text();
   }
@@ -87,11 +95,13 @@
     .btn-danger-default();
   }
 
-  &-dangerous&-primary {
+  &-dangerous&-primary,
+  &-dangerous&-secondary {
     .btn-danger();
   }
 
-  &-dangerous&-link {
+  &-dangerous&-link,
+  &-dangerous&-dashlink {
     .btn-danger-link();
   }
 
@@ -241,7 +251,8 @@
     .button-variant-ghost(@btn-danger-border, @btn-danger-border, @error-color-hover, @error-color-active);
   }
 
-  &-background-ghost&-dangerous&-link {
+  &-background-ghost&-dangerous&-link,
+  &-background-ghost&-dangerous&-dashlink {
     .button-variant-ghost(@btn-danger-border, transparent, @error-color-hover, @error-color-active);
   }
 
