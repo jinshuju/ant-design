@@ -14,7 +14,7 @@ export const SpaceContext = React.createContext({
   supportFlexGap: false,
 });
 
-export type SpaceSize = SizeType | number;
+export type SpaceSize = SizeType | 'xs' | 'xl' | 'xxl' | number;
 
 export interface SpaceProps extends React.HTMLAttributes<HTMLDivElement> {
   prefixCls?: string;
@@ -29,16 +29,19 @@ export interface SpaceProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 const spaceSize = {
+  xs: 4,
   small: 8,
-  middle: 16,
-  large: 24,
+  middle: 12,
+  large: 16,
+  xl: 20,
+  xxl: 24,
 };
 
 function getNumberSize(size: SpaceSize) {
   return typeof size === 'string' ? spaceSize[size] : size || 0;
 }
 
-const Space: React.FC<SpaceProps> = props => {
+const Space: React.FC<SpaceProps> = (props) => {
   const { getPrefixCls, space, direction: directionConfig } = React.useContext(ConfigContext);
 
   const {
@@ -58,7 +61,7 @@ const Space: React.FC<SpaceProps> = props => {
 
   const [horizontalSize, verticalSize] = React.useMemo(
     () =>
-      ((Array.isArray(size) ? size : [size, size]) as [SpaceSize, SpaceSize]).map(item =>
+      ((Array.isArray(size) ? size : [size, size]) as [SpaceSize, SpaceSize]).map((item) =>
         getNumberSize(item),
       ),
     [size],

@@ -7,15 +7,15 @@ title:
 
 ## zh-CN
 
-间距预设大、中、小三种大小。
+间距预设 xxl、xl、large、middle、small、xs 六种大小。
 
-通过设置 `size` 为 `large` `middle` 分别把间距设为大、中间距。若不设置 `size`，则间距为小。
+通过设置 `size` 控制间距。若不设置 `size`，则间距为 small。
 
 ## en-US
 
-`large`, `middle` and `small` preset sizes.
+Spacing preset xxl, xl, large, middle, small, xs six sizes.
 
-Set the size to `large` and `middle` by setting size to large and middle respectively. If `size` is not set, the spacing is `small`.
+Control the spacing by setting 'size'. If 'size' is not set, the spacing is small.
 
 ```tsx
 import { Button, Radio, Space } from 'antd';
@@ -28,9 +28,12 @@ const App: React.FC = () => {
   return (
     <>
       <Radio.Group value={size} onChange={e => setSize(e.target.value)}>
+        <Radio value="xs">xs</Radio>
         <Radio value="small">Small</Radio>
         <Radio value="middle">Middle</Radio>
         <Radio value="large">Large</Radio>
+        <Radio value="xl">xl</Radio>
+        <Radio value="xxl">xxl</Radio>
       </Radio.Group>
       <br />
       <br />
