@@ -15,6 +15,16 @@ timeline: true
 
 ---
 
+## 4.24.30
+
+`2023-4-07`
+
+- 增加两种按钮类型 secondary 和 dashlink。
+- 更新 Modal 标题字号和行高
+- 调整 Modal Footer 按钮最小宽带为 76px
+- 调整 ConfirmDialog 的结构，使其更符合金数据的弹窗样式
+- 调整 RadioButton 的颜色
+
 ## 4.24.29
 
 `2023-4-06`

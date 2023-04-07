@@ -101,8 +101,29 @@ const ConfirmDialog = (props: ConfirmDialogProps) => {
         )}
         onCancel={() => close?.({ triggerCancel: true })}
         open={open || visible}
-        title=""
-        footer=""
+        title={
+          <>
+            {icon}
+            {props.title === undefined ? null : (
+              <span className={`${contentPrefixCls}-title`}>{props.title}</span>
+            )}
+          </>
+        }
+        footer={
+          <div className={`${contentPrefixCls}-btns`}>
+            {cancelButton}
+            <ActionButton
+              type={okType}
+              actionFn={onOk}
+              close={close}
+              autoFocus={autoFocusButton === 'ok'}
+              buttonProps={okButtonProps}
+              prefixCls={`${rootPrefixCls}-btn`}
+            >
+              {okText}
+            </ActionButton>
+          </div>
+        }
         transitionName={getTransitionName(rootPrefixCls, 'zoom', props.transitionName)}
         maskTransitionName={getTransitionName(rootPrefixCls, 'fade', props.maskTransitionName)}
         mask={mask}
@@ -121,28 +142,7 @@ const ConfirmDialog = (props: ConfirmDialogProps) => {
         modalRender={modalRender}
         focusTriggerAfterClose={focusTriggerAfterClose}
       >
-        <div className={`${contentPrefixCls}-body-wrapper`}>
-          <div className={`${contentPrefixCls}-body`}>
-            {icon}
-            {props.title === undefined ? null : (
-              <span className={`${contentPrefixCls}-title`}>{props.title}</span>
-            )}
-            <div className={`${contentPrefixCls}-content`}>{props.content}</div>
-          </div>
-          <div className={`${contentPrefixCls}-btns`}>
-            {cancelButton}
-            <ActionButton
-              type={okType}
-              actionFn={onOk}
-              close={close}
-              autoFocus={autoFocusButton === 'ok'}
-              buttonProps={okButtonProps}
-              prefixCls={`${rootPrefixCls}-btn`}
-            >
-              {okText}
-            </ActionButton>
-          </div>
-        </div>
+        <div className={`${contentPrefixCls}-body`}>{props.content}</div>
       </Dialog>
     </ConfigProvider>
   );

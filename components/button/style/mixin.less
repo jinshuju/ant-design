@@ -438,9 +438,10 @@
   .button-variant-other(@btn-dashlink-color, transparent, transparent);
 
   display: inline;
-  padding: 0px 2px;
+  padding: 0px;
   white-space: unset;
   text-align: left;
+  border: unset;
   border-bottom: 1px dashed @btn-dashlink-border-color;
   border-radius: 0;
   box-shadow: none;
@@ -464,7 +465,18 @@
     border-bottom: 1px dashed @btn-dashlink-color;
   }
 
-  .button-disabled(@disabled-color; transparent; transparent);
+  .button-disabled(@btn-disabled-color; transparent; transparent);
+
+  &[disabled] {
+    &,
+    &:hover,
+    &:focus,
+    &:active {
+      text-shadow: none;
+      border-bottom: 1px dashed @btn-dashlink-disabled-color;
+      box-shadow: none;
+    }
+  }
 }
 
 // link button disabled style

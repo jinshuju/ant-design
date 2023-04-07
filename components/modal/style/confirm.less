@@ -4,71 +4,45 @@
 
 .@{confirm-prefix-cls} {
   .@{ant-prefix}-modal-header {
-    display: none;
-  }
+    .@{ant-prefix}-modal-title {
+      display: flex;
+      align-items: center;
 
-  .@{ant-prefix}-modal-body {
-    padding: @modal-confirm-body-padding;
-  }
-
-  &-body-wrapper {
-    .clearfix();
-  }
-
-  &-body {
-    .@{confirm-prefix-cls}-title {
-      display: block;
-      // create BFC to avoid
-      // https://user-images.githubusercontent.com/507615/37702510-ba844e06-2d2d-11e8-9b67-8e19be57f445.png
-      overflow: hidden;
-      color: @heading-color;
-      font-weight: 500;
-      font-size: @modal-confirm-title-font-size;
-      line-height: 1.4;
-    }
-
-    .@{confirm-prefix-cls}-content {
-      margin-top: 8px;
-      color: @text-color;
-      font-size: @font-size-base;
-    }
-
-    > .@{iconfont-css-prefix} {
-      float: left;
-      margin-right: 16px;
-      font-size: 22px;
-
-      // `content` after `icon` should set marginLeft
-      + .@{confirm-prefix-cls}-title + .@{confirm-prefix-cls}-content {
-        margin-left: 38px;
+      .@{confirm-prefix-cls}-title {
+        margin-left: @margin-xs;
+        // create BFC to avoid
+        // https://user-images.githubusercontent.com/507615/37702510-ba844e06-2d2d-11e8-9b67-8e19be57f445.png
+        overflow: hidden;
       }
     }
   }
 
-  .@{confirm-prefix-cls}-btns {
-    margin-top: 24px;
-    text-align: right;
-
-    .@{ant-prefix}-btn + .@{ant-prefix}-btn {
-      margin-bottom: 0;
-      margin-left: 8px;
+  &-body {
+    .@{confirm-prefix-cls}-body {
+      color: @text-color;
+      font-size: @font-size-base;
     }
   }
 
-  &-error &-body > .@{iconfont-css-prefix} {
+  &-error .@{ant-prefix}-modal-title > .@{iconfont-css-prefix},
+  &-error .@{ant-prefix}-modal-title > svg:first-child {
     color: @error-color;
   }
 
-  &-warning &-body > .@{iconfont-css-prefix},
-  &-confirm &-body > .@{iconfont-css-prefix} {
-    color: @warning-color;
+  &-warning .@{ant-prefix}-modal-title > .@{iconfont-css-prefix},
+  &-confirm .@{ant-prefix}-modal-title > .@{iconfont-css-prefix},
+  &-warning .@{ant-prefix}-modal-title > svg:first-child,
+  &-confirm .@{ant-prefix}-modal-title > svg:first-child {
+    color: @modal-warning-color;
   }
 
-  &-info &-body > .@{iconfont-css-prefix} {
+  &-info .@{ant-prefix}-modal-title > .@{iconfont-css-prefix},
+  &-info .@{ant-prefix}-modal-title > svg:first-child {
     color: @info-color;
   }
 
-  &-success &-body > .@{iconfont-css-prefix} {
+  &-success .@{ant-prefix}-modal-title > .@{iconfont-css-prefix},
+  &-success .@{ant-prefix}-modal-title > svg:first-child {
     color: @success-color;
   }
 

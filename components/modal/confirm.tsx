@@ -1,7 +1,6 @@
 import CheckCircleOutlined from '@ant-design/icons/CheckCircleOutlined';
-import CloseCircleOutlined from '@ant-design/icons/CloseCircleOutlined';
-import ExclamationCircleOutlined from '@ant-design/icons/ExclamationCircleOutlined';
 import InfoCircleOutlined from '@ant-design/icons/InfoCircleOutlined';
+import { RemindHintIcon, RemindWarningIcon } from '@gd-uikit/icons';
 import { render as reactRender, unmount as reactUnmount } from 'rc-util/lib/React/render';
 import * as React from 'react';
 import { globalConfig } from '../config-provider';
@@ -33,7 +32,7 @@ export default function confirm(config: ModalFuncProps) {
   let timeoutId: NodeJS.Timeout;
 
   function destroy(...args: any[]) {
-    const triggerCancel = args.some(param => param && param.triggerCancel);
+    const triggerCancel = args.some((param) => param && param.triggerCancel);
     if (config.onCancel && triggerCancel) {
       config.onCancel(() => {}, ...args.slice(1));
     }
@@ -124,7 +123,7 @@ export default function confirm(config: ModalFuncProps) {
 
 export function withWarn(props: ModalFuncProps): ModalFuncProps {
   return {
-    icon: <ExclamationCircleOutlined />,
+    icon: <RemindHintIcon />,
     okCancel: false,
     ...props,
     type: 'warning',
@@ -151,7 +150,7 @@ export function withSuccess(props: ModalFuncProps): ModalFuncProps {
 
 export function withError(props: ModalFuncProps): ModalFuncProps {
   return {
-    icon: <CloseCircleOutlined />,
+    icon: <RemindWarningIcon />,
     okCancel: false,
     ...props,
     type: 'error',
@@ -160,7 +159,7 @@ export function withError(props: ModalFuncProps): ModalFuncProps {
 
 export function withConfirm(props: ModalFuncProps): ModalFuncProps {
   return {
-    icon: <ExclamationCircleOutlined />,
+    icon: <RemindHintIcon />,
     okCancel: true,
     ...props,
     type: 'confirm',
