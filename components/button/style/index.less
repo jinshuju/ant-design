@@ -278,7 +278,8 @@
   }
 }
 
-a.@{btn-prefix-cls} {
+a.@{btn-prefix-cls}:not(.@{btn-prefix-cls}-link),
+a.@{btn-prefix-cls}:not(.@{btn-prefix-cls}-dashlink) {
   // Fixing https://github.com/ant-design/ant-design/issues/12978
   // https://github.com/ant-design/ant-design/issues/29978
   // It is a render problem of chrome, which is only happened in the codesandbox demo
