@@ -69,6 +69,9 @@ const App: React.FC = () => (
     </Button>
     <br />
     <Button type="link">Link</Button>
+    <Button type="link" size="large">
+      Link
+    </Button>
     <Button type="link" loading>
       Link
     </Button>
@@ -80,6 +83,9 @@ const App: React.FC = () => (
     </Button>
     <br />
     <Button type="dashlink">Dash Link</Button>
+    <Button type="dashlink" size="large">
+      Large Dash Link
+    </Button>
     <Button type="dashlink" loading>
       Dash Link
     </Button>
@@ -93,14 +99,12 @@ const App: React.FC = () => (
     <p>
       Fugiat tempor magna cupidatat exercitation
       <Button type="dashlink">
-        {' '}
-        Et veniam Lorem laborum et occaecat cupidatat commodo Non eiusmod excepteur eiusmod ea consectetur
-        fugiat excepteur quis
-      </Button>{' '}
-      exercitation. Nostrud magna amet qui qui sint adipisicing. Consequat in anim tempor quis
-      irure. Anim pariatur minim esse mollit irure ex nulla Lorem ut ad quis non dolor anim.
-      Voluptate reprehenderit commodo laboris et reprehenderit aliquip sunt qui sint id. Cillum quis
-      elit nulla dolore reprehenderit minim elit enim velit sint sit dolor.
+        Et veniam Lorem laborum et occaecat cupidatat commodo Non eiusmod excepteur eiusmod ea
+        consectetur fugiat excepteur quis
+      </Button> exercitation. Nostrud magna amet qui qui sint adipisicing. Consequat in anim tempor quis
+      irure. Anim pariatur minim esse mollit irure ex nulla Lorem ut ad quis non dolor anim. Voluptate
+      reprehenderit commodo laboris et reprehenderit aliquip sunt qui sint id. Cillum quis elit nulla
+      dolore reprehenderit minim elit enim velit sint sit dolor.
     </p>
   </>
 );

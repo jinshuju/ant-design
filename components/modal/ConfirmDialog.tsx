@@ -39,7 +39,7 @@ const ConfirmDialog = (props: ConfirmDialogProps) => {
     rootPrefixCls,
     iconPrefixCls,
     bodyStyle,
-    closable = false,
+    closable = true,
     closeIcon,
     modalRender,
     focusTriggerAfterClose,
