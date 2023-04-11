@@ -34,6 +34,20 @@ const getClickPosition = (e: MouseEvent) => {
   }, 100);
 };
 
+const getWidth = (size?: 'default' | 'medium' | 'large') => {
+  switch (size) {
+    case 'medium': {
+      return '6.02rem';
+    }
+    case 'large': {
+      return '8.96rem';
+    }
+    default: {
+      return '3.92rem';
+    }
+  }
+};
+
 // 只有点击事件支持从鼠标位置动画展开
 if (canUseDocElement()) {
   document.documentElement.addEventListener('click', getClickPosition, true);
@@ -95,6 +109,7 @@ export interface ModalProps {
   focusTriggerAfterClose?: boolean;
   children?: React.ReactNode;
   mousePosition?: MousePosition;
+  size?: 'default' | 'medium' | 'large';
 }
 
 type getContainerFunc = () => HTMLElement;
@@ -130,6 +145,7 @@ export interface ModalFuncProps {
   style?: React.CSSProperties;
   wrapClassName?: string;
   maskStyle?: React.CSSProperties;
+  size?: 'default' | 'medium' | 'large';
   type?: 'info' | 'success' | 'error' | 'warn' | 'warning' | 'confirm';
   keyboard?: boolean;
   getContainer?: string | HTMLElement | getContainerFunc | false;
@@ -149,7 +165,7 @@ export interface ModalLocale {
   justOkText: string;
 }
 
-const Modal: React.FC<ModalProps> = props => {
+const Modal: React.FC<ModalProps> = (props) => {
   const {
     getPopupContainer: getContextPopupContainer,
     getPrefixCls,
@@ -183,6 +199,7 @@ const Modal: React.FC<ModalProps> = props => {
     closeIcon,
     focusTriggerAfterClose = true,
     width = 520,
+    size,
     ...restProps
   } = props;
 
@@ -191,7 +208,7 @@ const Modal: React.FC<ModalProps> = props => {
 
   const defaultFooter = (
     <LocaleReceiver componentName="Modal" defaultLocale={getConfirmLocale()}>
-      {contextLocale => {
+      {(contextLocale) => {
         const { okText, okType = 'primary', cancelText, confirmLoading = false } = props;
 
         return (
@@ -223,11 +240,12 @@ const Modal: React.FC<ModalProps> = props => {
     [`${prefixCls}-centered`]: !!centered,
     [`${prefixCls}-wrap-rtl`]: direction === 'rtl',
   });
+
   return (
     <NoCompactStyle>
       <NoFormStyle status override>
         <Dialog
-          width={width}
+          width={width || getWidth(size)}
           {...restProps}
           getContainer={
             getContainer === undefined
