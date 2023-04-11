@@ -37,13 +37,13 @@ const getClickPosition = (e: MouseEvent) => {
 const getWidth = (size?: 'default' | 'medium' | 'large') => {
   switch (size) {
     case 'medium': {
-      return '6.02rem';
+      return 600;
     }
     case 'large': {
-      return '8.96rem';
+      return 900;
     }
     default: {
-      return '3.92rem';
+      return 400;
     }
   }
 };

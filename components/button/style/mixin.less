@@ -229,7 +229,9 @@
 // --------------------------------------------------
 .btn() {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-weight: @btn-font-weight;
   white-space: nowrap;
   text-align: center;
@@ -250,7 +252,6 @@
     width: 20px;
     height: 20px;
     margin-right: 4px;
-    vertical-align: -4px;
   }
 
   &,
