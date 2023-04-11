@@ -246,6 +246,13 @@
     line-height: 1;
   }
 
+  > svg:first-child {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    vertical-align: -4px;
+  }
+
   &,
   &:active,
   &:focus {
@@ -271,10 +278,22 @@
 
   &-lg {
     .button-size(@btn-height-lg; @btn-padding-horizontal-lg; @btn-font-size-lg; @btn-border-radius-base );
+
+    > svg:first-child {
+      width: 24px;
+      height: 24px;
+      margin-right: 6px;
+    }
   }
 
   &-sm {
     .button-size(@btn-height-sm; @btn-padding-horizontal-sm; @btn-font-size-sm; @btn-border-radius-sm );
+
+    > svg:first-child {
+      width: 18px;
+      height: 18px;
+      margin-right: 4px;
+    }
   }
 }
 

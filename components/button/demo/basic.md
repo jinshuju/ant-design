@@ -16,10 +16,14 @@ There are `primary` button, `default` button, `dashed` button, `text` button and
 ```tsx
 import { Button } from 'antd';
 import React from 'react';
+import { RemindHintIcon, RemindWarningIcon } from '@gd-uikit/icons';
 
 const App: React.FC = () => (
   <>
-    <Button type="primary">Primary</Button>
+    <Button type="primary">
+      <RemindWarningIcon />
+      Primary
+    </Button>
     <Button type="primary" loading>
       Primary
     </Button>
@@ -41,7 +45,7 @@ const App: React.FC = () => (
       Secondary
     </Button>
     <br />
-    <Button>Default</Button>
+    <Button icon={<RemindWarningIcon />}>Default</Button>
     <Button loading>Default</Button>
     <Button danger>Default</Button>
     <Button disabled>Default</Button>
@@ -57,7 +61,10 @@ const App: React.FC = () => (
       Dashed
     </Button>
     <br />
-    <Button type="text">Text</Button>
+    <Button type="text">
+      <RemindHintIcon />
+      Text
+    </Button>
     <Button type="text" loading>
       Text
     </Button>
