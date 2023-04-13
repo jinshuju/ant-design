@@ -58,8 +58,8 @@ const RESPONSIVE_MOBILE = 768;
 // for dark.css timestamp to remove cache
 const timestamp = Date.now();
 const themeMap = {
-  dark: `/ant-design/dark.css?${timestamp}`,
-  compact: `/ant-design/compact.css?${timestamp}`,
+  dark: `/dark.css?${timestamp}`,
+  compact: `/compact.css?${timestamp}`,
 };
 const themeConfig = {
   themeMap,
@@ -209,7 +209,7 @@ export default class Layout extends React.Component<LayoutPropsType, LayoutState
       query.direction = 'rtl';
     }
     browserHistory.push({
-      pathname: `/ant-design/${pathname}`,
+      pathname: `/${pathname}`,
       query,
       hash,
     });

@@ -338,7 +338,7 @@ class MainContent extends Component {
         query.theme = theme;
       }
       browserHistory.push({
-        pathname: `/ant-design/${pathname}`,
+        pathname: `/${pathname}`,
         query,
         hash,
       });
@@ -485,7 +485,6 @@ class MainContent extends Component {
   }
 
   render() {
-    console.log('MainContent Props', this.props)
     const { demos, location } = this.props;
     const { openKeys, mobileMenuOpen } = this.state;
     const { isMobile, theme, setIframeTheme } = this.context;

@@ -98,7 +98,6 @@ interface HeaderState {
 }
 
 const Header: React.FC<HeaderProps & WrappedComponentProps<'intl'>> = (props) => {
-  console.log('Header Props', props);
   const { intl, router, location, themeConfig, changeDirection } = props;
   const [headerState, setHeaderState] = useState<HeaderState>({
     menuVisible: false,
@@ -190,8 +189,7 @@ const Header: React.FC<HeaderProps & WrappedComponentProps<'intl'>> = (props) =>
       currentProtocol +
       currentHref.replace(
         window.location.pathname,
-        utils.getLocalizedPathname(`/ant-design/${pathname}`, !utils.isZhCN(pathname), query)
-          .pathname,
+        utils.getLocalizedPathname(pathname, !utils.isZhCN(pathname), query).pathname,
       );
   }, [location]);
 

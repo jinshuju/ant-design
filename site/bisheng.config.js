@@ -11,13 +11,13 @@ const isDev = process.env.NODE_ENV === 'development';
 const { ANT_THEME, DEV_THEME } = process.env;
 
 function alertBabelConfig(rules) {
-  rules.forEach(rule => {
+  rules.forEach((rule) => {
     if (rule.loader && rule.loader === 'babel-loader') {
       if (rule.options.plugins.indexOf(replaceLib) === -1) {
         rule.options.plugins.push(replaceLib);
       }
       rule.options.plugins = rule.options.plugins.filter(
-        plugin => !plugin.indexOf || plugin.indexOf('babel-plugin-add-module-exports') === -1,
+        (plugin) => !plugin.indexOf || plugin.indexOf('babel-plugin-add-module-exports') === -1,
       );
       // Add babel-plugin-add-react-displayname
       rule.options.plugins.push(require.resolve('babel-plugin-add-react-displayname'));
@@ -41,7 +41,6 @@ module.exports = {
   },
   theme: ANT_THEME ? './site/theme/index-css-only.js' : './site/theme',
   htmlTemplate: './site/theme/static/template.html',
-  root: '/ant-design/',
   themeConfig,
   filePathMapper(filePath) {
     if (filePath === '/index.html') {
@@ -125,7 +124,7 @@ module.exports = {
 
     if (ANT_THEME) {
       config.mode = 'development';
-      config.plugins.forEach(plugin => {
+      config.plugins.forEach((plugin) => {
         if (plugin?.options?.filename?.includes?.('.css')) {
           delete plugin.options.chunkFilename;
           plugin.options.filename = `${ANT_THEME}.css`;
@@ -133,7 +132,7 @@ module.exports = {
       });
 
       // Remove preset target
-      config.module.rules.forEach(rule => {
+      config.module.rules.forEach((rule) => {
         if (rule.options?.presets?.[1]?.[0]?.includes('preset-env')) {
           delete rule.options.presets[1][1];
           delete rule.options.plugins;
