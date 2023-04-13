@@ -15,7 +15,7 @@ interface ConfirmDialogProps extends ModalFuncProps {
   iconPrefixCls?: string;
 }
 
-const getWidth = (size?: 'default' | 'medium' | 'large') => {
+const getWidth = (size?: 'small' | 'medium' | 'large') => {
   switch (size) {
     case 'medium': {
       return 600;
@@ -124,19 +124,23 @@ const ConfirmDialog = (props: ConfirmDialogProps) => {
           </>
         }
         footer={
-          <div className={`${contentPrefixCls}-btns`}>
-            {cancelButton}
-            <ActionButton
-              type={okType}
-              actionFn={onOk}
-              close={close}
-              autoFocus={autoFocusButton === 'ok'}
-              buttonProps={okButtonProps}
-              prefixCls={`${rootPrefixCls}-btn`}
-            >
-              {okText}
-            </ActionButton>
-          </div>
+          props.footer ? (
+            props.footer
+          ) : (
+            <div className={`${contentPrefixCls}-btns`}>
+              {cancelButton}
+              <ActionButton
+                type={okType}
+                actionFn={onOk}
+                close={close}
+                autoFocus={autoFocusButton === 'ok'}
+                buttonProps={okButtonProps}
+                prefixCls={`${rootPrefixCls}-btn`}
+              >
+                {okText}
+              </ActionButton>
+            </div>
+          )
         }
         transitionName={getTransitionName(rootPrefixCls, 'zoom', props.transitionName)}
         maskTransitionName={getTransitionName(rootPrefixCls, 'fade', props.maskTransitionName)}

@@ -34,7 +34,7 @@ const getClickPosition = (e: MouseEvent) => {
   }, 100);
 };
 
-const getWidth = (size?: 'default' | 'medium' | 'large') => {
+const getWidth = (size?: 'small' | 'medium' | 'large') => {
   switch (size) {
     case 'medium': {
       return 600;
@@ -109,7 +109,7 @@ export interface ModalProps {
   focusTriggerAfterClose?: boolean;
   children?: React.ReactNode;
   mousePosition?: MousePosition;
-  size?: 'default' | 'medium' | 'large';
+  size?: 'small' | 'medium' | 'large';
 }
 
 type getContainerFunc = () => HTMLElement;
@@ -126,6 +126,8 @@ export interface ModalFuncProps {
   title?: React.ReactNode;
   closable?: boolean;
   content?: React.ReactNode;
+  /** 底部内容 */
+  footer?: React.ReactNode;
   // TODO: find out exact types
   onOk?: (...args: any[]) => any;
   onCancel?: (...args: any[]) => any;
@@ -145,7 +147,7 @@ export interface ModalFuncProps {
   style?: React.CSSProperties;
   wrapClassName?: string;
   maskStyle?: React.CSSProperties;
-  size?: 'default' | 'medium' | 'large';
+  size?: 'small' | 'medium' | 'large';
   type?: 'info' | 'success' | 'error' | 'warn' | 'warning' | 'confirm';
   keyboard?: boolean;
   getContainer?: string | HTMLElement | getContainerFunc | false;

@@ -251,7 +251,10 @@
   > svg:first-child {
     width: 20px;
     height: 20px;
-    margin-right: 4px;
+
+    & + span {
+      margin-left: 4px;
+    }
   }
 
   &,
@@ -283,7 +286,6 @@
     > svg:first-child {
       width: 24px;
       height: 24px;
-      margin-right: 6px;
     }
   }
 
@@ -293,7 +295,6 @@
     > svg:first-child {
       width: 18px;
       height: 18px;
-      margin-right: 4px;
     }
   }
 }

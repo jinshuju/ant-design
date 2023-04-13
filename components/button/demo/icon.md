@@ -21,6 +21,7 @@ If you want specific control over the positioning and placement of the `Icon`, t
 import { SearchOutlined } from '@ant-design/icons';
 import { Button, Tooltip } from 'antd';
 import React from 'react';
+import { RemindHintIcon, RemindWarningIcon } from '@gd-uikit/icons';
 
 const App: React.FC = () => (
   <>
@@ -33,6 +34,13 @@ const App: React.FC = () => (
     <Button type="primary" icon={<SearchOutlined />}>
       Search
     </Button>
+    <Button type="secondary" shape="circle">
+      <RemindHintIcon />
+    </Button>
+    <Button type="secondary">
+      <RemindHintIcon />
+    </Button>
+    <Button type="secondary" icon={<RemindWarningIcon />} />
     <Tooltip title="search">
       <Button shape="circle" icon={<SearchOutlined />} />
     </Tooltip>

@@ -259,14 +259,14 @@ const InternalButton: React.ForwardRefRenderFunction<unknown, ButtonProps> = (pr
   const iconType = innerLoading ? 'loading' : icon;
 
   const linkButtonRestProps = omit(rest as AnchorButtonProps & { navigate: any }, ['navigate']);
-
+  const iconOnly = !children && children !== 0 && !!iconType;
   const classes = classNames(
     prefixCls,
     {
       [`${prefixCls}-${shape}`]: shape !== 'default' && shape, // Note: Shape also has `default`
       [`${prefixCls}-${type}`]: type,
       [`${prefixCls}-${sizeCls}`]: sizeCls,
-      [`${prefixCls}-icon-only`]: !children && children !== 0 && !!iconType,
+      [`${prefixCls}-icon-only`]: iconOnly,
       [`${prefixCls}-background-ghost`]: ghost && !isUnBorderedButtonType(type),
       [`${prefixCls}-loading`]: innerLoading,
       [`${prefixCls}-two-chinese-chars`]: hasTwoCNChar && autoInsertSpace && !innerLoading,
@@ -278,6 +278,19 @@ const InternalButton: React.ForwardRefRenderFunction<unknown, ButtonProps> = (pr
     compactItemClassnames,
     className,
   );
+
+  const fixIconOnlyForSvgIcon = () => {
+    if (!buttonRef || !buttonRef.current || iconOnly || React.Children.count(children) !== 1) {
+      return;
+    }
+
+    const buttonel = buttonRef.current;
+    if (buttonel.childElementCount === 1 && buttonel.firstElementChild.nodeName === 'svg') {
+      buttonel.classList.add(`${prefixCls}-icon-only`);
+    }
+  };
+
+  React.useEffect(fixIconOnlyForSvgIcon, [buttonRef]);
 
   const iconNode =
     icon && !innerLoading ? (

@@ -15,6 +15,13 @@ timeline: true
 
 ---
 
+## 4.24.37
+
+`2023-4-13`
+
+- 支持为 Button 对于 SVG 图标 iconOnly
+- 支持为 ModalFuncProps 添加自定义 footer
+
 ## 4.24.35
 
 `2023-4-11`
