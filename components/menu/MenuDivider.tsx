@@ -1,3 +1,5 @@
+'use client'
+
 import classNames from 'classnames';
 import { Divider } from 'rc-menu';
 import * as React from 'react';

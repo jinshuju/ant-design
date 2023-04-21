@@ -1,3 +1,5 @@
+'use client'
+
 import BarsOutlined from '@ant-design/icons/BarsOutlined';
 import LeftOutlined from '@ant-design/icons/LeftOutlined';
 import RightOutlined from '@ant-design/icons/RightOutlined';

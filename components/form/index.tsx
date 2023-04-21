@@ -1,3 +1,5 @@
+'use client'
+
 import { Rule, RuleObject, RuleRender } from 'rc-field-form/lib/interface';
 import warning from '../_util/warning';
 import { FormProvider } from './context';

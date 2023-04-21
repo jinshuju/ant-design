@@ -1,3 +1,5 @@
+'use client'
+
 import type * as React from 'react';
 import type { AbstractCheckboxProps } from '../checkbox/Checkbox';
 import type { AbstractCheckboxGroupProps } from '../checkbox/Group';

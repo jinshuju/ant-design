@@ -1,3 +1,5 @@
+'use client'
+
 import CloseCircleFilled from '@ant-design/icons/CloseCircleFilled';
 import classNames from 'classnames';
 import type { InputProps as RcInputProps, InputRef } from 'rc-input';

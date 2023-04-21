@@ -1,3 +1,5 @@
+'use client'
+
 import * as React from 'react';
 import type { PopconfirmProps } from '.';
 import Button from '../button';

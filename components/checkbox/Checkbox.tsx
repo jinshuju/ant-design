@@ -1,3 +1,5 @@
+'use client'
+
 import classNames from 'classnames';
 import RcCheckbox from 'rc-checkbox';
 import * as React from 'react';

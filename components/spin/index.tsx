@@ -1,3 +1,5 @@
+'use client'
+
 import classNames from 'classnames';
 import debounce from 'lodash/debounce';
 import omit from 'rc-util/lib/omit';

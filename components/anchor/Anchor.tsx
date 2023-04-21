@@ -1,3 +1,5 @@
+'use client'
+
 import classNames from 'classnames';
 import addEventListener from 'rc-util/lib/Dom/addEventListener';
 import * as React from 'react';

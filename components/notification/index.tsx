@@ -1,3 +1,5 @@
+'use client'
+
 import CheckCircleOutlined from '@ant-design/icons/CheckCircleOutlined';
 import CloseCircleOutlined from '@ant-design/icons/CloseCircleOutlined';
 import CloseOutlined from '@ant-design/icons/CloseOutlined';

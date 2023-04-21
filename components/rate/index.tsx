@@ -1,3 +1,5 @@
+'use client'
+
 import StarFilled from '@ant-design/icons/StarFilled';
 import RcRate from 'rc-rate';
 import type { RateProps as RcRateProps } from 'rc-rate/lib/Rate';

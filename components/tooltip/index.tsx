@@ -1,3 +1,5 @@
+'use client'
+
 import classNames from 'classnames';
 import RcTooltip from 'rc-tooltip';
 import type { placements as Placements } from 'rc-tooltip/lib/placements';

@@ -1,3 +1,5 @@
+'use client'
+
 import raf from 'rc-util/lib/raf';
 import { composeRef } from 'rc-util/lib/ref';
 import * as React from 'react';

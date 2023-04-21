@@ -1,3 +1,5 @@
+'use client'
+
 import CheckCircleFilled from '@ant-design/icons/CheckCircleFilled';
 import CheckCircleOutlined from '@ant-design/icons/CheckCircleOutlined';
 import CloseCircleFilled from '@ant-design/icons/CloseCircleFilled';

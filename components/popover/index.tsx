@@ -1,3 +1,5 @@
+'use client'
+
 import * as React from 'react';
 import { ConfigContext } from '../config-provider';
 import type { AbstractTooltipProps } from '../tooltip';

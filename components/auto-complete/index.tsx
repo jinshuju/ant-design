@@ -1,3 +1,5 @@
+'use client'
+
 /**
  * TODO: 4.0
  *

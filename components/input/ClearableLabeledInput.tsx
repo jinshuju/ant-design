@@ -1,3 +1,5 @@
+'use client'
+
 import CloseCircleFilled from '@ant-design/icons/CloseCircleFilled';
 import classNames from 'classnames';
 import * as React from 'react';

@@ -1,3 +1,5 @@
+'use client'
+
 import * as React from 'react';
 import type { ScreenSizeMap } from '../_util/responsiveObserve';
 

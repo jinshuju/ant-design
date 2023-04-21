@@ -1,3 +1,5 @@
+'use client'
+
 import DoubleLeftOutlined from '@ant-design/icons/DoubleLeftOutlined';
 import DoubleRightOutlined from '@ant-design/icons/DoubleRightOutlined';
 import LeftOutlined from '@ant-design/icons/LeftOutlined';

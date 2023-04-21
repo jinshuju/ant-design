@@ -1,3 +1,5 @@
+'use client'
+
 import EllipsisOutlined from '@ant-design/icons/EllipsisOutlined';
 import classNames from 'classnames';
 import type { MenuProps as RcMenuProps, MenuRef } from 'rc-menu';

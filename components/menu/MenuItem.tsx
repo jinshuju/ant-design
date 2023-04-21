@@ -1,3 +1,5 @@
+'use client'
+
 import classNames from 'classnames';
 import type { MenuItemProps as RcMenuItemProps } from 'rc-menu';
 import { Item } from 'rc-menu';

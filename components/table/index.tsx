@@ -1,3 +1,5 @@
+'use client'
+
 import Table, { TablePaginationConfig, TableProps } from './Table';
 
 export { ColumnProps } from './Column';

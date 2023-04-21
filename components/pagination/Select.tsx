@@ -1,3 +1,5 @@
+'use client'
+
 import * as React from 'react';
 import type { SelectProps } from '../select';
 import Select from '../select';

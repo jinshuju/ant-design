@@ -1,3 +1,5 @@
+'use client'
+
 import CheckCircleOutlined from '@ant-design/icons/CheckCircleOutlined';
 import InfoCircleOutlined from '@ant-design/icons/InfoCircleOutlined';
 import { RemindHintIcon, RemindWarningIcon } from '@gd-uikit/icons';

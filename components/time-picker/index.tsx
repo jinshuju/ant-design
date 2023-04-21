@@ -1,3 +1,5 @@
+'use client'
+
 import type { Moment } from 'moment';
 import * as React from 'react';
 import DatePicker from '../date-picker';

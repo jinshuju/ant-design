@@ -1,3 +1,5 @@
+'use client'
+
 import warning from '../_util/warning';
 
 const Icon: React.FC = () => {

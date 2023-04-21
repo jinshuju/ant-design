@@ -1,3 +1,5 @@
+'use client'
+
 import classNames from 'classnames';
 import CSSMotion from 'rc-motion';
 import * as React from 'react';

@@ -1,3 +1,5 @@
+'use client'
+
 import classNames from 'classnames';
 import type { BaseSelectRef } from 'rc-select';
 import type { TreeSelectProps as RcTreeSelectProps } from 'rc-tree-select';

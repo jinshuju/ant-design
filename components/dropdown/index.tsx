@@ -1,3 +1,5 @@
+'use client'
+
 import Dropdown from './dropdown';
 
 export type {

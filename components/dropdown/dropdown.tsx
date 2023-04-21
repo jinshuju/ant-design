@@ -1,3 +1,5 @@
+'use client'
+
 import RightOutlined from '@ant-design/icons/RightOutlined';
 import classNames from 'classnames';
 import RcDropdown from 'rc-dropdown';

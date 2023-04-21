@@ -1,3 +1,5 @@
+'use client'
+
 import classNames from 'classnames';
 import useMergedState from 'rc-util/lib/hooks/useMergedState';
 import * as React from 'react';

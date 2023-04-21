@@ -1,3 +1,5 @@
+'use client'
+
 import Countdown from './Countdown';
 import Statistic, { StatisticProps } from './Statistic';
 

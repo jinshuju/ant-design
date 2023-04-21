@@ -1,3 +1,5 @@
+'use client'
+
 import CloseOutlined from '@ant-design/icons/CloseOutlined';
 import classNames from 'classnames';
 import RcDrawer from 'rc-drawer';

@@ -1,3 +1,5 @@
+'use client'
+
 import { FunctionCloseIcon } from '@gd-uikit/icons';
 import classNames from 'classnames';
 import Dialog from 'rc-dialog';

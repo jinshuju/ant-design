@@ -1,3 +1,5 @@
+'use client'
+
 import * as React from 'react';
 import type { AbstractCheckboxProps } from '../checkbox/Checkbox';
 import { ConfigContext } from '../config-provider';

@@ -1,3 +1,5 @@
+'use client'
+
 import Timeline from './Timeline';
 
 export { TimelineProps } from './Timeline';

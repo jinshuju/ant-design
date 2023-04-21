@@ -1,3 +1,5 @@
+'use client'
+
 import DotChartOutlined from '@ant-design/icons/DotChartOutlined';
 import classNames from 'classnames';
 import * as React from 'react';

@@ -1,3 +1,5 @@
+'use client'
+
 import EyeInvisibleOutlined from '@ant-design/icons/EyeInvisibleOutlined';
 import EyeOutlined from '@ant-design/icons/EyeOutlined';
 import classNames from 'classnames';

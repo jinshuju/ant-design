@@ -1,3 +1,5 @@
+'use client'
+
 import classNames from 'classnames';
 import type { TextAreaProps as RcTextAreaProps } from 'rc-textarea';
 import RcTextArea from 'rc-textarea';

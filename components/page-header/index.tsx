@@ -1,3 +1,5 @@
+'use client'
+
 import ArrowLeftOutlined from '@ant-design/icons/ArrowLeftOutlined';
 import ArrowRightOutlined from '@ant-design/icons/ArrowRightOutlined';
 import classNames from 'classnames';
