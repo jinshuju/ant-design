@@ -21,6 +21,11 @@ timeline: true
 
 - 添加 Switch Group 组件
 
+## 4.24.40
+
+`2023-4-26`
+
+- 修复 InputNumber 的样式问题
 
 ## 4.24.38
 
