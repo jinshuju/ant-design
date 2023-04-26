@@ -11332,8 +11332,8 @@ textarea.ant-input-number {
   transition: opacity 0.24s linear 0.24s;
 }
 .ant-input-number-focused {
-  border-color: #177ddc;
-  box-shadow: 0 0 0 2px rgba(23, 125, 220, 0.2);
+  border-color: #434343;
+  box-shadow: 0 0 0 2px rgba(67, 67, 67, 0.2);
   border-right-width: 1px;
   outline: 0;
 }

@@ -11239,7 +11239,7 @@ textarea.ant-input-number {
 }
 .ant-input-number-focused {
   border-color: #40a9ff;
-  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(217, 217, 217, 0.2);
   border-right-width: 1px;
   outline: 0;
 }
