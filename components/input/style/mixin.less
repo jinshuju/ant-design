@@ -24,18 +24,10 @@
     border-color: @hoverBorderColor;
   }
 
-  & when not (@theme =variable) {
-    box-shadow: @input-outline-offset @outline-blur-size @outline-width
-      fade(@borderColor, @outline-fade);
-  }
-
-  & when (@theme =variable) {
-    border-color: @hoverBorderColor;
-    box-shadow: @input-outline-offset @outline-blur-size @outline-width @outlineColor;
-  }
-
+  border-color: @hoverBorderColor;
   border-right-width: @border-width-base;
   outline: 0;
+  box-shadow: @input-outline-offset @outline-blur-size @outline-width @outlineColor;
 }
 
 // == when hover
