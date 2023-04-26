@@ -7,6 +7,56 @@
 @switch-pin-size: @switch-height - 4px;
 @switch-sm-pin-size: @switch-sm-height - 4px;
 
+.@{switch-prefix-cls}-group {
+  .reset-component();
+
+  &-horizontal {
+    display: inline-block;
+
+    .@{switch-prefix-cls}-wrapper  {
+      vertical-align: middle;
+      margin-right: @checkbox-group-item-margin-right;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .@{switch-prefix-cls}-wrapper + .@{switch-prefix-cls}-wrapper {
+      margin-left: 0;
+    }
+  }
+
+  &-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .@{switch-prefix-cls}-wrapper + .@{switch-prefix-cls}-wrapper {
+      margin-top: 12px;
+    }
+  }
+}
+
+.@{switch-prefix-cls}-wrapper {
+  .reset-component();
+  display: inline-flex;
+  align-items: center;
+  line-height: unset;
+  cursor: pointer;
+
+  &::after {
+    display: inline-block;
+    width: 0;
+    overflow: hidden;
+    content: '\a0';
+  }
+
+  &.@{switch-prefix-cls}-wrapper-disabled {
+    cursor: not-allowed;
+  }
+}
+
 .@{switch-prefix-cls} {
   .reset-component();
 
@@ -24,17 +74,9 @@
   transition: all @switch-duration;
   user-select: none;
 
-  &:focus {
-    outline: 0;
-    box-shadow: 0 0 0 2px fade(@disabled-color, 10%);
-  }
-
-  &-checked:focus {
-    box-shadow: 0 0 0 2px @primary-1;
-  }
-
-  &:focus:hover {
-    box-shadow: none;
+  & + span {
+    padding-right: 8px;
+    padding-left: 8px;
   }
 
   &-checked {
