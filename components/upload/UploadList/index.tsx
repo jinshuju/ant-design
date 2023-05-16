@@ -129,6 +129,9 @@ const InternalUploadList: React.ForwardRefRenderFunction<unknown, UploadListProp
     const btnProps: ButtonProps = {
       type: 'text',
       size: 'small',
+      style: {
+        background: 'transparent',
+      },
       title,
       onClick: (e: React.MouseEvent<HTMLElement>) => {
         callback();
@@ -173,7 +176,7 @@ const InternalUploadList: React.ForwardRefRenderFunction<unknown, UploadListProp
 
   // >>> Motion config
   const motionKeyList = [
-    ...items.map(file => ({
+    ...items.map((file) => ({
       key: file.uid,
       file,
     })),
@@ -231,7 +234,7 @@ const InternalUploadList: React.ForwardRefRenderFunction<unknown, UploadListProp
       {appendAction && (
         <CSSMotion {...motionConfig} visible={appendActionVisible} forceRender>
           {({ className: motionClassName, style: motionStyle }) =>
-            cloneElement(appendAction, oriProps => ({
+            cloneElement(appendAction, (oriProps) => ({
               className: classNames(oriProps.className, motionClassName),
               style: {
                 ...motionStyle,
