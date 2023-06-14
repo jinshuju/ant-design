@@ -23,13 +23,15 @@ const App: React.FC = () => {
 
   return (
     <Space direction="vertical">
-      <Input.Password placeholder="input password" />
+      <Input.Password placeholder="input password" allowClear />
       <Input.Password
+        allowClear
         placeholder="input password"
         iconRender={visible => (visible ? <EyeTwoTone /> : <EyeInvisibleOutlined />)}
       />
       <Space direction="horizontal">
         <Input.Password
+          allowClear
           placeholder="input password"
           visibilityToggle={{ visible: passwordVisible, onVisibleChange: setPasswordVisible }}
         />
