@@ -132,9 +132,16 @@ function generatePickerPanel<DateType>(generateConfig: GenerateConfig<DateType>)
       return result;
     };
 
+    const otherProps = {
+      prevIcon: <span className={`${prefixCls}-prev-icon`} />,
+      nextIcon: <span className={`${prefixCls}-next-icon`} />,
+      superPrevIcon: <span className={`${prefixCls}-super-prev-icon`} />,
+      superNextIcon: <span className={`${prefixCls}-super-next-icon`} />,
+    };
+
     return (
       <LocaleReceiver componentName="Calendar" defaultLocale={getDefaultLocale}>
-        {(contextLocale) => (
+        {contextLocale => (
           <div className={classNames(className)} style={style}>
             <RCPickerPanel
               value={mergedValue}
@@ -144,10 +151,7 @@ function generatePickerPanel<DateType>(generateConfig: GenerateConfig<DateType>)
               onSelect={onInternalSelect}
               picker={picker}
               disabledDate={mergedDisabledDate}
-              prevIcon={<span className={`${prefixCls}-prev-icon`} />}
-              nextIcon={<span className={`${prefixCls}-next-icon`} />}
-              superPrevIcon={<span className={`${prefixCls}-super-prev-icon`} />}
-              superNextIcon={<span className={`${prefixCls}-super-next-icon`} />}
+              {...otherProps}
             />
           </div>
         )}
