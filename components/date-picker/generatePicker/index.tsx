@@ -20,6 +20,7 @@ import PickerTag from '../PickerTag';
 import PickerInput from '../PickerInput';
 import generateRangePicker from './generateRangePicker';
 import generateSinglePicker from './generateSinglePicker';
+import generatePickerPanel from './generatePickerPanel';
 
 export const Components = { button: PickerButton, rangeItem: PickerTag, input: PickerInput };
 
@@ -137,6 +138,9 @@ function generatePicker<DateType>(generateConfig: GenerateConfig<DateType>) {
     generateSinglePicker(generateConfig);
 
   // ======================== Range Picker ========================
+  const PickerPanel = generatePickerPanel(generateConfig);
+
+  // ======================== Range Picker ========================
   const RangePicker = generateRangePicker(generateConfig);
 
   // =========================== Export ===========================
@@ -147,6 +151,7 @@ function generatePicker<DateType>(generateConfig: GenerateConfig<DateType>) {
     RangePicker: typeof RangePicker;
     TimePicker: typeof TimePicker;
     QuarterPicker: typeof QuarterPicker;
+    PickerPanel: typeof PickerPanel;
   };
 
   const MergedDatePicker = DatePicker as MergedDatePickerType;
@@ -156,6 +161,7 @@ function generatePicker<DateType>(generateConfig: GenerateConfig<DateType>) {
   MergedDatePicker.RangePicker = RangePicker;
   MergedDatePicker.TimePicker = TimePicker;
   MergedDatePicker.QuarterPicker = QuarterPicker;
+  MergedDatePicker.PickerPanel = PickerPanel;
 
   return MergedDatePicker;
 }
