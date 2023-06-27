@@ -7,7 +7,6 @@ import type {
   PickerPanelTimeProps as RCPickerPanelTimeProps,
 } from 'rc-picker/lib/PickerPanel';
 import type { PickerMode } from 'rc-picker/lib/interface';
-import useMergedState from 'rc-util/lib/hooks/useMergedState';
 import * as React from 'react';
 import { ConfigContext } from '../../config-provider';
 import LocaleReceiver from '../../locale-provider/LocaleReceiver';
@@ -52,22 +51,6 @@ export interface DatePickerPanelProps<DateType> {
 }
 
 function generatePickerPanel<DateType>(generateConfig: GenerateConfig<DateType>) {
-  function isSameYear(date1: DateType, date2: DateType) {
-    return date1 && date2 && generateConfig.getYear(date1) === generateConfig.getYear(date2);
-  }
-
-  function isSameMonth(date1: DateType, date2: DateType) {
-    return (
-      isSameYear(date1, date2) && generateConfig.getMonth(date1) === generateConfig.getMonth(date2)
-    );
-  }
-
-  function isSameDate(date1: DateType, date2: DateType) {
-    return (
-      isSameMonth(date1, date2) && generateConfig.getDate(date1) === generateConfig.getDate(date2)
-    );
-  }
-
   const DatePickerPanel = (props: DatePickerPanelProps<DateType>) => {
     const {
       prefixCls: customizePrefixCls,
@@ -86,12 +69,6 @@ function generatePickerPanel<DateType>(generateConfig: GenerateConfig<DateType>)
 
     // ====================== State =======================
 
-    // Value
-    const [mergedValue, setMergedValue] = useMergedState(() => value || generateConfig.getNow(), {
-      defaultValue,
-      value,
-    });
-
     // Disabled Date
     const mergedDisabledDate = React.useCallback(
       (date: DateType) => {
@@ -105,16 +82,9 @@ function generatePickerPanel<DateType>(generateConfig: GenerateConfig<DateType>)
     );
 
     // ====================== Events ======================
-    const triggerChange = (date: DateType) => {
-      setMergedValue(date);
-
-      if (!isSameDate(date, mergedValue)) {
-        onChange?.(date);
-      }
-    };
 
     const onInternalSelect = (date: DateType) => {
-      triggerChange(date);
+      onChange?.(date);
       onSelect?.(date);
     };
 
@@ -141,10 +111,11 @@ function generatePickerPanel<DateType>(generateConfig: GenerateConfig<DateType>)
 
     return (
       <LocaleReceiver componentName="Calendar" defaultLocale={getDefaultLocale}>
-        {contextLocale => (
+        {(contextLocale) => (
           <div className={classNames(className)} style={style}>
             <RCPickerPanel
-              value={mergedValue}
+              value={value}
+              defaultValue={defaultValue}
               prefixCls={prefixCls}
               locale={contextLocale.lang}
               generateConfig={generateConfig}
