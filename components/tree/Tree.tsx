@@ -51,7 +51,7 @@ export interface AntTreeNodeProps {
   [customProp: string]: any;
 }
 
-export interface AntTreeNode extends React.Component<AntTreeNodeProps, {}> { }
+export interface AntTreeNode extends React.Component<AntTreeNodeProps, {}> {}
 
 export interface AntTreeNodeBaseEvent {
   node: AntTreeNode;
@@ -144,13 +144,14 @@ export interface TreeProps<T extends BasicDataNode = DataNode>
   style?: React.CSSProperties;
   showIcon?: boolean;
   icon?:
-  | ((nodeProps: AntdTreeNodeAttribute) => React.ReactNode)
-  | React.ReactNode
-  | RcTreeProps<T>['icon'];
+    | ((nodeProps: AntdTreeNodeAttribute) => React.ReactNode)
+    | React.ReactNode
+    | RcTreeProps<T>['icon'];
   switcherIcon?: SwitcherIcon | RcTreeProps<T>['switcherIcon'];
   prefixCls?: string;
   children?: React.ReactNode;
   blockNode?: boolean;
+  fullBlock?: boolean;
 }
 
 const Tree = React.forwardRef<RcTree, TreeProps>((props, ref) => {
@@ -162,6 +163,7 @@ const Tree = React.forwardRef<RcTree, TreeProps>((props, ref) => {
     showLine,
     switcherIcon,
     blockNode = false,
+    fullBlock,
     children,
     checkable = false,
     selectable = true,
@@ -218,6 +220,7 @@ const Tree = React.forwardRef<RcTree, TreeProps>((props, ref) => {
         {
           [`${prefixCls}-icon-hide`]: !showIcon,
           [`${prefixCls}-block-node`]: blockNode,
+          [`${prefixCls}-full-block`]: fullBlock && blockNode,
           [`${prefixCls}-unselectable`]: !selectable,
           [`${prefixCls}-rtl`]: direction === 'rtl',
         },

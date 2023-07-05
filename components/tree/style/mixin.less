@@ -92,12 +92,86 @@
     }
   }
 
+  &.@{custom-tree-prefix-cls}-block-node.@{custom-tree-prefix-cls}-full-block {
+    // ================== TreeNode ==================
+    .@{custom-tree-prefix-cls}-treenode:not(.@{custom-tree-prefix-cls}-treenode-disabled) {
+      position: relative;
+
+      // Hover color
+      &::before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 4px;
+        left: 0;
+        transition: background-color 0.3s;
+        content: '';
+        pointer-events: none;
+      }
+
+      &:hover {
+        &::before {
+          background: @item-hover-bg;
+        }
+      }
+
+      // Elements
+      > * {
+        z-index: 1;
+      }
+
+      // >>> Switcher
+      .@{tree-prefix-cls}-switcher {
+        transition: color 0.3s;
+      }
+
+      // >>> Title
+      .@{tree-prefix-cls}-node-content-wrapper {
+        border-radius: 0;
+        user-select: none;
+
+        &:hover {
+          background: transparent;
+        }
+
+        &.@{tree-prefix-cls}-node-selected {
+          color: @tree-full-block-selected-color;
+          background: transparent;
+        }
+      }
+
+      // ============= Selected =============
+      &.@{custom-tree-prefix-cls}-treenode-selected {
+        &:hover::before,
+        &::before {
+          background: @tree-full-block-selected-bg;
+        }
+
+        // >>> Switcher
+        .@{tree-prefix-cls}-switcher {
+          color: @tree-full-block-selected-color;
+        }
+
+        // >>> Title
+        .@{tree-prefix-cls}-node-content-wrapper {
+          color: @tree-full-block-selected-color;
+          background: transparent;
+        }
+      }
+    }
+
+    &.@{custom-tree-prefix-cls}-show-line .@{custom-tree-prefix-cls}-switcher {
+      background: transparent;
+    }
+  }
+
   // ===================== TreeNode =====================
   .@{custom-tree-node-prefix-cls} {
     display: flex;
     align-items: flex-start;
     padding: 0 0 @tree-node-padding 0;
     outline: none;
+
     // Disabled
     &-disabled {
       // >>> Title
@@ -194,6 +268,7 @@
       display: inline-block;
       width: 100%;
       height: 100%;
+
       // https://github.com/ant-design/ant-design/issues/31884
       &::before {
         position: absolute;
