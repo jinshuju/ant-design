@@ -19,14 +19,20 @@ import type { DatePickerProps } from 'antd/es/date-picker';
 import moment from 'moment';
 import React from 'react';
 
-const onChange: DatePickerProps['onChange'] = (date, dateString) => {
+const { RangePicker } = DatePicker;
+
+const onDateChange: DatePickerProps['onChange'] = (date, dateString) => {
+  console.log(date, dateString);
+};
+
+const onRangeChange: RangePickerProps['onChange'] = (date, dateString) => {
   console.log(date, dateString);
 };
 
 const App: React.FC = () => (
   <Space direction="vertical" size={12}>
     <DatePicker
-      onChange={onChange}
+      onChange={onDateChange}
       presets={[
         {
           label: 'Hello World!',
@@ -41,6 +47,39 @@ const App: React.FC = () => (
           value: 'tomorrow',
         },
       ]}
+    />
+    <RangePicker
+      onChange={onRangeChange}
+      presetsHeader={<div style={{ paddingLeft: 16, paddingTop: 10 }}>快速查看</div>}
+      presets={[
+        {
+          label: '今天',
+          value: 'today',
+        },
+        {
+          label: '明天',
+          value: 'tomorrow',
+        },
+      ]}
+    />
+    <RangePicker
+      onChange={onRangeChange}
+      presetsHeader={<div style={{ paddingLeft: 16, paddingTop: 10 }}>快速查看</div>}
+      presets={[
+        {
+          label: '今天',
+          value: 'today',
+        },
+        {
+          label: '明天',
+          value: 'tomorrow',
+        },
+      ]}
+      showTime={{
+        showSecond: false,
+        defaultValue: [moment('00:00:00', 'HH:mm:ss'), moment('23:59:59', 'HH:mm:ss')],
+      }}
+      format="YYYY/MM/DD HH:mm:ss"
     />
   </Space>
 );
