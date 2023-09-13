@@ -4,6 +4,8 @@ name: Deploy website
 on:
   create
 
+  workflow_dispatch:
+
 permissions:
   contents: read
 
