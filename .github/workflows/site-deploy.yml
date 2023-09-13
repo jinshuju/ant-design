@@ -2,7 +2,7 @@
 
 name: Deploy website
 on:
-  workflow_dispatch:
+  create
 
 permissions:
   contents: read
