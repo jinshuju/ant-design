@@ -253,7 +253,7 @@ span.@{radio-prefix-cls} + * {
 
   &:hover {
     position: relative;
-    color: @radio-dot-color;
+    color: @radio-button-hover-color;
   }
 
   &:focus-within {
@@ -276,7 +276,7 @@ span.@{radio-prefix-cls} + * {
     border-color: @radio-solid-checked-color;
 
     &::before {
-      background-color: @radio-dot-color;
+      background-color: @radio-button-hover-color;
     }
 
     &:first-child {
@@ -307,20 +307,18 @@ span.@{radio-prefix-cls} + * {
   }
 
   .@{radio-group-prefix-cls}-solid &-checked:not(&-disabled) {
-    color: @radio-solid-checked-color;
-    background: @radio-dot-color;
-    border-color: @radio-dot-color;
+    color: @component-background;
+    background: @radio-solid-checked-color;
+    border-color: @radio-solid-checked-color;
 
     &:hover {
-      color: @radio-solid-checked-color;
-      background: @radio-button-hover-color;
-      border-color: @radio-button-hover-color;
+      background: fade(@radio-solid-checked-color, 90%);
+      border-color: fade(@radio-solid-checked-color, 90%);
     }
 
     &:active {
-      color: @radio-solid-checked-color;
-      background: @radio-button-active-color;
-      border-color: @radio-button-active-color;
+      background: fade(@radio-solid-checked-color, 100%);
+      border-color: fade(@radio-solid-checked-color, 100%);
     }
 
     &:focus-within {
