@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import CheckCircleFilled from '@ant-design/icons/CheckCircleFilled';
 import CloseCircleFilled from '@ant-design/icons/CloseCircleFilled';
@@ -159,15 +159,21 @@ function getRCNoticeProps(
     [`${prefixCls}-${args.type}`]: args.type,
     [`${prefixCls}-rtl`]: rtl === true,
   });
+
   return {
     key: args.key,
     duration,
     style: args.style || {},
-    className: args.className,
+    className: classNames(
+      {
+        [`${prefixCls}-notice-type-${args.type}`]: args.type,
+      },
+      args.className,
+    ),
     content: (
       <ConfigProvider iconPrefixCls={iconPrefixCls}>
         <div className={messageClass}>
-          {args.icon || (IconComponent && <IconComponent />)}
+          {args.icon || (!!IconComponent && false && <IconComponent />)}
           <span>{args.content}</span>
         </div>
       </ConfigProvider>
@@ -179,7 +185,7 @@ function getRCNoticeProps(
 
 function notice(args: ArgsProps): MessageType {
   const target = args.key || getKeyThenIncreaseKey();
-  const closePromise = new Promise(resolve => {
+  const closePromise = new Promise((resolve) => {
     const callback = () => {
       if (typeof args.onClose === 'function') {
         args.onClose();
@@ -253,7 +259,7 @@ export function attachTypeApi(originalApi: MessageApi, type: NoticeType) {
   };
 }
 
-typeList.forEach(type => attachTypeApi(api, type));
+typeList.forEach((type) => attachTypeApi(api, type));
 
 api.warn = api.warning;
 api.useMessage = createUseMessage(getRCNotificationInstance, getRCNoticeProps);

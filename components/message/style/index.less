@@ -20,6 +20,7 @@
 
   &-notice-content {
     display: inline-block;
+    min-width: 220px;
     padding: @message-notice-content-padding;
     background: @message-notice-content-bg;
     border-radius: @border-radius-base;
@@ -49,6 +50,34 @@
     top: 1px;
     margin-right: 8px;
     font-size: @font-size-lg;
+  }
+
+  &-notice.@{message-prefix-cls}-notice-type-success {
+    .@{message-prefix-cls}-notice-content {
+      color: @color-neutral-0;
+      background-color: @color-green-60;
+    }
+  }
+
+  &-notice.@{message-prefix-cls}-notice-type-error {
+    .@{message-prefix-cls}-notice-content {
+      color: @color-neutral-0;
+      background-color: @color-red-60;
+    }
+  }
+
+  &-notice.@{message-prefix-cls}-notice-type-warning {
+    .@{message-prefix-cls}-notice-content {
+      color: @color-neutral-90;
+      background-color: @color-yellow-60;
+    }
+  }
+
+  &-notice.@{message-prefix-cls}-notice-type-info {
+    .@{message-prefix-cls}-notice-content {
+      color: @color-neutral-0;
+      background-color: @color-blue-60;
+    }
   }
 
   &-notice.@{ant-prefix}-move-up-leave.@{ant-prefix}-move-up-leave-active {
