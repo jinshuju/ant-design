@@ -63,7 +63,7 @@
     "presite": "npm run version",
     "compile": "npm run clean && antd-tools run compile",
     "changelog": "node ./scripts/print-changelog",
-    "predeploy": "antd-tools run clean && npm run site",
+    "predeploy": "antd-tools run clean && npm run site && cp ./site/CNAME ./_site",
     "deploy": "gh-pages -d _site -r git@github.com:jinshuju/ant-design.git -b gh-pages",
     "dist": "antd-tools run dist",
     "dist:esbuild": "ESBUILD=true npm run dist",
